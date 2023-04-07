@@ -40,7 +40,7 @@ Just like other assets, the LP tokens can be transerred and traded.
 
 Whenever a swapping occurs, swap fees is charged to the transaction sender. This fee is distributed pro-rata to all LPs in the pool upon completion of the trade.
 
-To retrieve the underlying liquidity, plus any fees accrued, liquidity providers can remove liquidity, "burning" their liquidity tokens. This will allow them to exchange LP tokens for their portion of the liquidity pool, plus the proportional fee allocation. The yield will not be distributed while the user is still holding the LP tokens.
+To retrieve the underlying liquidity, plus any fees accrued, liquidity providers can remove liquidity, give back their liquidity tokens. This will allow them to exchange LP tokens for their portion of the liquidity pool, plus the proportional fee allocation. 
 
 ## Automated Market Maker (AMM)
 
@@ -52,7 +52,7 @@ This approach was the reason for some slippage and latency in price discovery on
 
 On AMM-based decentralized exchanges, the traditional order book is replaced by liquidity pools that are pre-funded on-chain for both assets of the trading pair. The liquidity is provided by other users who also earn passive income on their deposit through trading fees based on the percentage of the liquidity pool that they provide.
 
-One decentralized exchange that has implemented an AMM is Uniswap. Uniswap is an Ethereum-based decentralized exchange which allows its users to both supply liquidity to earn passive income or exchange between various assets.
+Pando Proto uses AMM to provide swap service to users.
 
 To learn more about AMM, check out [What Is an Automated Market Maker](https://coinmarketcap.com/alexandria/glossary/automated-market-maker-amm)
 

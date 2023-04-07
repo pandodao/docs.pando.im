@@ -16,5 +16,5 @@ There are 3 major protocols in Pando, including 4swap, Leaf and Rings.
 
 Leaf is a decentralized minting protocol built on Mixin Network. It uses the pledge mechanism that similar to MakerDAO and issues stablecoins called "PUSD".
 
-Rings is a decentralized lending protocol built on Mixin Network. It implements compound V1 interest model and provides liquidity mining for users. Rings is not in development and is keeping in minimal running.
+Rings is a decentralized lending protocol built on Mixin Network. It implements compound V1 interest model and provides liquidity mining for users. Rings is not in development anymore and is keeping in minimal running.
 
