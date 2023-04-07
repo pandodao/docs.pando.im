@@ -2,7 +2,7 @@
 
 ## 支持的钱包
 
-Pando Proto 支持 [Mixin Messenger](https://docs.pando.im/docs/wallets/mixin-messenger), [Fennec](https://pando.im/fennec/), [Metamask](https:/ /metamask.io/) 和所有 walletconnect 兼容的钱包。
+Pando Proto 支持 [Mixin Messenger](https://docs.pando.im/docs/wallets/mixin-messenger), [Fennec](https://pando.im/fennec/), [Metamask](https://metamask.io/) 和所有 Walletconnect 兼容的钱包。
 
 ## 与 Metamask 连接
 
