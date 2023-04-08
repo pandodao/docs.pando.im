@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,N as i}from"./chunks/framework.0799945b.js";const m=JSON.parse('{"title":"Mint and pUSD","description":"","frontmatter":{},"headers":[],"relativePath":"manual/mint.md"}'),o={name:"manual/mint.md"},n=i("",39),l=[n];function r(s,d,h,c,u,p){return t(),a("div",null,l)}const f=e(o,[["render",r]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,N as i}from"./chunks/framework.0799945b.js";const f=JSON.parse('{"title":"Essential Concepts","description":"","frontmatter":{},"headers":[],"relativePath":"manual/essential.md"}'),s={name:"manual/essential.md"},r=i("",19),n=[r];function o(l,c,d,h,u,p){return t(),a("div",null,n)}const _=e(s,[["render",o]]);export{f as __pageData,_ as default};

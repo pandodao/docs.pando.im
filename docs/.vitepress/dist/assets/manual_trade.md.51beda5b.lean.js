@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,N as o}from"./chunks/framework.0799945b.js";const f=JSON.parse('{"title":"Trade","description":"","frontmatter":{},"headers":[],"relativePath":"manual/trade.md"}'),r={name:"manual/trade.md"},i=o("",29),s=[i];function n(l,h,p,d,c,u){return a(),t("div",null,s)}const k=e(r,[["render",n]]);export{f as __pageData,k as default};

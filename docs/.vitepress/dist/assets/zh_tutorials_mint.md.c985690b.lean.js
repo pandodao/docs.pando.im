@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,N as i}from"./chunks/framework.0799945b.js";const m=JSON.parse('{"title":"铸造 pUSD","description":"","frontmatter":{},"headers":[],"relativePath":"zh/tutorials/mint.md"}'),o={name:"zh/tutorials/mint.md"},l=i("",27),r=[l];function p(s,d,h,n,c,u){return t(),e("div",null,r)}const b=a(o,[["render",p]]);export{m as __pageData,b as default};

@@ -2,14 +2,16 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
+import MyLayout from './layout/index.vue'
 
 export default {
   ...Theme,
-  Layout: () => {
-    return h(Theme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  Layout: MyLayout,
+  // () => {
+  //   return h(Theme.Layout, null, {
+  //     // https://vitepress.dev/guide/extending-default-theme#layout-slots
+  //   })
+  // },
   enhanceApp({ app, router, siteData }) {
     // ...
   }
