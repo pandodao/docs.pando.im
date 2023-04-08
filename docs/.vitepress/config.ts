@@ -1,6 +1,19 @@
 import { defineConfig } from 'vitepress'
 import { t } from "./messages"
 
+const genNav = () => {
+  let ret:any = [];
+  for (const lang of ['en', 'zh']) {
+    const prefix = lang === 'en' ? '' : '/' + lang;
+    ret = [
+      { text: 'Home', link: '/' },
+      { text: t(lang, 'tutorial'), link: `${prefix}/tutorials/` },
+      { text: t(lang, "user_manual"), link: `${prefix}/manual/essential` }
+    ]
+  }
+  return ret;
+}
+
 const genI18nSidebar = () => {
   const ret = {};
   for (const lang of ['en', 'zh']) {

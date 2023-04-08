@@ -45,16 +45,6 @@ The collateral is the pledged asset that is used to mint pUSD. The collateral is
 
 ## Leaf Liquidation
 
-### Leaf Auction Process
-
-When a vault breaches the minimum required collateralization ratio, it will be liquidated and the pledged assets will be on auction. Anyone can participate in the auction. The ongoing auction can be found in the "Ongoing" section on the "Auctions" page.
-
-There are TWO phases of the auction.
-
-For Phase 1, participants bid at an increment of not less than 3% of the previous bidding amount to cover the highest amount of the outstanding debt. If within the limit of 12 hours, no one is willing to cover the total debt, the auction is over and the bidder who is willing to cover the highest amount of the debt will take all of the pledged assets home. Or if there is someone who bids to cover the total debt, then the auction will move to the second phase.
-
-For Phase 2, participants bid at a decrement of no less than 3% of the previous bidding amount on accepting the smallest part of the pledged asset for the payment of the total debt. The winner will need to pay off all the debt in exchange for the smallest amount of the pledged asset that (s)he subtmits the bid for.
-
 ### Leaf Liquidation Ratio
 
 The Liquidation Ratio is the minimum required collateralization level for each vault type before it is considered undercollateralized and subject to liquidation.
@@ -80,3 +70,13 @@ Liquidation Price = (Generated pUSD * Liquidation Ratio) / (Amount of Collateral
 A liquidation penalty is a fee paid by vault owners when the value of their collateral reaches the vault's Liquidation Price.
 
 The Liquidation Penalty is added to the vault’s total outstanding generated pUSD when liquidation occurs, which results in more collateral being sold at auction.
+
+### Leaf Auction Process
+
+When a vault breaches the minimum required collateralization ratio, it will be liquidated and the pledged assets will be on auction. Anyone can participate in the auction. The ongoing auction can be found in the "Ongoing" section on the "Auctions" page.
+
+There are TWO phases of the auction.
+
+For Phase 1, participants bid at an increment of not less than 3% of the previous bidding amount to cover the highest amount of the outstanding debt. If within the limit of 12 hours, no one is willing to cover the total debt, the auction is over and the bidder who is willing to cover the highest amount of the debt will take all of the pledged assets home. Or if there is someone who bids to cover the total debt, then the auction will move to the second phase.
+
+For Phase 2, participants bid at a decrement of no less than 3% of the previous bidding amount on accepting the smallest part of the pledged asset for the payment of the total debt. The winner will need to pay off all the debt in exchange for the smallest amount of the pledged asset that (s)he subtmits the bid for.

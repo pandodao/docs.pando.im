@@ -19,6 +19,8 @@ Solution:
 
 In some cases, your transaction may fail due to the following reasons: The slippage tolerance is too low. Please try to increase the slippage tolerance and try again.
 
+You can also solve this problem by splitting an order into multiple orders, reducing the amount of each transaction, and conducting multiple transactions.
+
 Please read the details of slippage tolerance [here](./trade.md#slippage-tolerance).
 
 ## This webpage can't be reached
