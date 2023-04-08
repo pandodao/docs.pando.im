@@ -58,6 +58,7 @@ const genI18nSidebar = () => {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/",
   title: "Pando Documentation",
   description: "The official documentation for Pando Proto",
   locales: {
