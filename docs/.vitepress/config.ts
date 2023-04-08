@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { t } from "./messages"
+import { t } from "../lang/messages"
 
 const genNav = () => {
   // @TODO: support multi-language
