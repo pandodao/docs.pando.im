@@ -2,11 +2,12 @@ import { defineConfig } from 'vitepress'
 import { t } from "./messages"
 
 const genNav = () => {
+  // @TODO: support multi-language
   let ret:any = [];
-  for (const lang of ['en', 'zh']) {
+  for (const lang of ['en']) {
     const prefix = lang === 'en' ? '' : '/' + lang;
     ret = [
-      { text: 'Home', link: '/' },
+      { text: t(lang, 'home'), link: '/' },
       { text: t(lang, 'tutorial'), link: `${prefix}/tutorials/` },
       { text: t(lang, "user_manual"), link: `${prefix}/manual/essential` }
     ]
@@ -70,17 +71,24 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    logo: { light: '/logo-with-text.svg', dark: 'logo-with-text-dark.svg', alt: 'Pando Proto' },
+    siteTitle: false,
+
+    editLink: {
+      pattern: 'https://github.com/pandodao/docs.pando.im/edit/master/docs/:path'
+    },
+
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Tutorials', link: '/tutorials/' },
-      { text: 'User Manual', link: '/manual/essential' }
-    ],
+    nav: genNav(),
 
     sidebar: genI18nSidebar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/pandodao/docs.pando.im' }
+    ],
+
+    footer: {
+      copyright: 'Copyright © 2018-present <a href="https://pando.im">Pando Proto</a>'
+    }
   }
 })
