@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,N as n}from"./chunks/framework.0799945b.js";const f=JSON.parse('{"title":"连接钱包","description":"","frontmatter":{},"headers":[],"relativePath":"zh/tutorials/connect.md"}'),r={name:"zh/tutorials/connect.md"},o=n("",21),l=[o];function i(d,c,s,h,p,m){return t(),a("div",null,l)}const _=e(r,[["render",i]]);export{f as __pageData,_ as default};

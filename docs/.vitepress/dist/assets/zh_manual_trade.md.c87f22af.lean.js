@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,N as r}from"./chunks/framework.0799945b.js";const k=JSON.parse('{"title":"交易","description":"","frontmatter":{},"headers":[],"relativePath":"zh/manual/trade.md"}'),o={name:"zh/manual/trade.md"},n=r("",29),p=[n];function h(l,i,s,d,c,m){return t(),e("div",null,p)}const P=a(o,[["render",h]]);export{k as __pageData,P as default};

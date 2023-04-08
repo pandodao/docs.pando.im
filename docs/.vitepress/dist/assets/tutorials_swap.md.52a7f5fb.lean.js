@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,N as o}from"./chunks/framework.0799945b.js";const m=JSON.parse('{"title":"Swapping","description":"","frontmatter":{},"headers":[],"relativePath":"tutorials/swap.md"}'),n={name:"tutorials/swap.md"},s=o("",16),i=[s];function r(c,l,d,h,p,u){return a(),t("div",null,i)}const f=e(n,[["render",r]]);export{m as __pageData,f as default};

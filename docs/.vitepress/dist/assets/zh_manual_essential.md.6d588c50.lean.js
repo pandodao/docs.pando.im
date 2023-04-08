@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,N as r}from"./chunks/framework.0799945b.js";const m=JSON.parse('{"title":"基本概念","description":"","frontmatter":{},"headers":[],"relativePath":"zh/manual/essential.md"}'),i={name:"zh/manual/essential.md"},l=r("",19),o=[l];function n(s,p,d,h,c,u){return t(),e("div",null,o)}const f=a(i,[["render",n]]);export{m as __pageData,f as default};

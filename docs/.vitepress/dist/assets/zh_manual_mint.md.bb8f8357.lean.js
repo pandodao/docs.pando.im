@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,N as r}from"./chunks/framework.0799945b.js";const b=JSON.parse('{"title":"铸造稳定币 pUSD","description":"","frontmatter":{},"headers":[],"relativePath":"zh/manual/mint.md"}'),o={name:"zh/manual/mint.md"},n=r("",40),l=[n];function p(i,d,s,h,c,f){return t(),e("div",null,l)}const S=a(o,[["render",p]]);export{b as __pageData,S as default};

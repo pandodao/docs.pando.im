@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,N as o}from"./chunks/framework.0799945b.js";const w=JSON.parse('{"title":"Connect Wallet","description":"","frontmatter":{},"headers":[],"relativePath":"tutorials/connect.md"}'),n={name:"tutorials/connect.md"},l=o("",21),r=[l];function c(i,s,h,d,p,u){return a(),t("div",null,r)}const b=e(n,[["render",c]]);export{w as __pageData,b as default};
