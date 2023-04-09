@@ -15,6 +15,7 @@ export default {
 import { onMounted } from "vue";
 
 onMounted(() => {
+  // https://cdn.jsdelivr.net/npm/@foxone/mvm@0.1.29/dist/mvm.min.js
   const script = document.createElement("script");
   script.src = "https://cdn.jsdelivr.net/npm/@foxone/talkee-install-js@0.1.2/dist/ti.min.js";
   script.async = true;

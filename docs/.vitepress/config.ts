@@ -61,6 +61,8 @@ export default defineConfig({
   base: "/",
   title: "Pando Documentation",
   description: "The official documentation for Pando Proto",
+  appearance: false,
+
   locales: {
     root: {
       label: 'English',
