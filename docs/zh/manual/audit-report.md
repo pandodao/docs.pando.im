@@ -6,7 +6,7 @@ outline: deep
 
 ## IOActive 出示的审计报告
 
-[Download](//docs.pando.im/reports/ioactive-report.pdf "Audit report from IOActive")
+[Download](http://docs.pando.im/reports/ioactive-report.pdf "Audit report from IOActive")
 
 ### 审计结果和修复状态
 
@@ -61,7 +61,7 @@ This issue is very hard to exploit, so the Mixin Team decided to ignore this iss
 ## LeastAuthority 出示的审计报告
 
 
-[Download](//docs.pando.im/reports/least-authority-report.pdf "Audit Report from Least Authority")
+[Download](http://docs.pando.im/reports/least-authority-report.pdf "Audit Report from Least Authority")
 
 
 ### 审计结果和修复状态
@@ -92,7 +92,7 @@ Actually we have a Roadmap with security related plans. We will update the roadm
 
 **Finding C: Protocol Specifications Nonexistent** 
 
-We have already provided some specifications for the protocol. Please check them out https://docs.pando.im/developer/intro.
+We have already provided some specifications for the protocol. Please check them out https:http://docs.pando.im/developer/intro.
 
 In the future, we will provide more documentation here.
 

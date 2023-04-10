@@ -56,5 +56,13 @@ In Pando, several teams will be selected and arranged as the "Trusted Group", be
 
 Learn more about MTG [here](https://developers.mixin.one/docs/mainnet/mtg/overview).
 
+## I can't mint pUSD using LTC, MOB, XIN and sETH-BTC as collateral. What's wrong?
+
+For security reasons, the max supply of pUSD for the those four limited collaterals are reset to 0. If you've minted pUSD using those collaterals, you can still redeem them. However, you can't mint more pUSD using those collaterals.
+
+## What's the difference between pUSD and other stablecoins, such as USDT, USDC, DAI, etc?
+
+pUSD is a stablecoin issued by Pando. It is backed by a basket of cryptocurrencies, mainly including BTC, ETH, etc (Pando doesn't accept any centralized assets as collateral). The collateral rates of pUSD are always higher than 200%. It's more stable and safer than other stablecoins.
+
 
 

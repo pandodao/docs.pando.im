@@ -6,7 +6,7 @@ outline: deep
 
 ## Audit Reports from IOActive
 
-[Download](//docs.pando.im/reports/ioactive-report.pdf "Audit report from IOActive")
+Please download [here](https://docs.pando.im/reports/ioactive-report.pdf "Audit report from IOActive")
 
 ### Findings and Remediation Status
 
@@ -61,7 +61,7 @@ This issue is very hard to exploit, so the Mixin Team decided to ignore this iss
 ## Audit Reports from LeastAuthority
 
 
-[Download](//docs.pando.im/reports/least-authority-report.pdf "Audit Report from Least Authority")
+Please download [download](https://docs.pando.im/reports/least-authority-report.pdf "Audit Report from Least Authority")
 
 
 ### Findings and Remediation Status
