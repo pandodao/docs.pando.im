@@ -15,6 +15,7 @@ export const messages = {
     "other_topics": "Other Topics",
     "faq": "FAQ",
     "troubleshooting": "Troubleshooting",
+    "audit-report": "Audit Report",
   },
   "zh": {
     "home": "首页",
@@ -32,6 +33,7 @@ export const messages = {
     "other_topics": "其他话题",
     "faq": "常见问题",
     "troubleshooting": "故障排除",
+    "audit-report": "审计报告",
   },
 }
 

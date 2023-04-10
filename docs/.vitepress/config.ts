@@ -49,6 +49,7 @@ const genI18nSidebar = () => {
         items: [
           { text: t(lang, 'faq'), link: `${prefix}/manual/faq` },
           { text: t(lang, 'troubleshooting'), link: `${prefix}/manual/troubleshooting` },
+          { text: t(lang, 'audit-report'), link: `${prefix}/manual/audit-report` },
         ]
       },
     ]
