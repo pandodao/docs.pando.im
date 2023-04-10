@@ -42,6 +42,7 @@ const genI18nSidebar = () => {
           { text: t(lang, 'essential'), link: `${prefix}/manual/essential` },
           { text: t(lang, 'trade_and_swap'), link: `${prefix}/manual/trade` },
           { text: t(lang, 'mint_and_pusd'), link: `${prefix}/manual/mint` },
+          { text: t(lang, 'claim_free_coin'), link: `${prefix}/manual/catkin` },
         ]
       },
       {
@@ -49,7 +50,7 @@ const genI18nSidebar = () => {
         items: [
           { text: t(lang, 'faq'), link: `${prefix}/manual/faq` },
           { text: t(lang, 'troubleshooting'), link: `${prefix}/manual/troubleshooting` },
-          { text: t(lang, 'audit-report'), link: `${prefix}/manual/audit-report` },
+          { text: t(lang, 'audit_report'), link: `${prefix}/manual/audit-report` },
         ]
       },
     ]

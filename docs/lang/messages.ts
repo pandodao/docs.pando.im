@@ -10,12 +10,13 @@ export const messages = {
     "cookbook": "Cookbook",
     "references": "References",
     "essential": "Essential",
-    "trade_and_swap": "Trade and Swap",
+    "trade_and_swap": "Trade and swap",
     "mint_and_pusd": "Mint and pUSD",
     "other_topics": "Other Topics",
     "faq": "FAQ",
     "troubleshooting": "Troubleshooting",
-    "audit-report": "Audit Report",
+    "audit_report": "Audit report",
+    "claim_free_coin": "Claim free coin",
   },
   "zh": {
     "home": "首页",
@@ -33,7 +34,8 @@ export const messages = {
     "other_topics": "其他话题",
     "faq": "常见问题",
     "troubleshooting": "故障排除",
-    "audit-report": "审计报告",
+    "audit_report": "审计报告",
+    "claim_free_coin": "领取免费代币",
   },
 }
 
