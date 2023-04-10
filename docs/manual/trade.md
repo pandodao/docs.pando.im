@@ -1,46 +1,8 @@
+---
+outline: deep
+---
+
 # Trade
-
-## Slippage Tolerance
-
-slippage tolerance is a parameter that controls the tolerance of the transaction amount.
-
-The greater the slippage tolerance, the higher the tolerance for the expected difference in the transaction, and the success rate of the transaction will increase, but it may also result in greater losses. 
-
-The smaller the slippage, the lower the tolerance for the expected difference of the transaction, the lower the transaction success rate, but each order will be more in line with the estimated situation you see on the web page. 
-
-The default value of slippage tolerance is 0.1%. You can set the slippage tolerance to any value between 0% and 100%.
-
-When the actual transaction differs from the estimated transaction amount more than slippage tolerance, Pando will reject the transaction and refund.
-
-## Swap Fee
-
-Swap fee is the fee charged for each transaction. The swap fee is 0.3% by default for most of liquidity pools. For curve liquidity pools, the swap fee is 0.04%. At present, the curve liquidity pools are pUSD-USDT(ERC-20), pUSD-USDT(TRC-20), pUSD-USDC, pUSD-DAI, and BTC-wBTC.
-
-The swap fee is charged to the token you are swapping out.
-
-## Impermanent Loss
-
-Adding liquidity is not without risk, as you may be exposed to impermanent loss.
-
-Impermanent loss is a term used to describe the loss that liquidity providers may experience when they deposit their funds into a liquidity pool. This occurs when the price of the two assets in the pool changes relative to each other.
-
-You may want to read [this post](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22) to learn more about impermanent loss.
-
-## Liquidity Provider Token (LP Token)
-
-Liquidity Provider Token (short for "LP token"() refers to the liquidity that is provided by liquidity providers (LPs) who deposit their funds into a liquidity pool in exchange for LP tokens.
-
-LP tokens are used to track individual contributions to the overall liquidity pool, as LP tokens held correspond proportionally to the share of liquidity in the overall pool.
-
-At the most basic level, LP tokens work on the following formula:
-
-`Total Value of Liquidity Pool / Circulating Supply of LP Tokens = Value of 1 LP Token`
-
-Just like other assets, the LP tokens can be transerred and traded.
-
-Whenever a swapping occurs, swap fees is charged to the transaction sender. This fee is distributed pro-rata to all LPs in the pool upon completion of the trade.
-
-To retrieve the underlying liquidity, plus any fees accrued, liquidity providers can remove liquidity, give back their liquidity tokens. This will allow them to exchange LP tokens for their portion of the liquidity pool, plus the proportional fee allocation. 
 
 ## Automated Market Maker (AMM)
 
@@ -55,4 +17,60 @@ On AMM-based decentralized exchanges, the traditional order book is replaced by 
 Pando Proto uses AMM to provide swap service to users.
 
 To learn more about AMM, check out [What Is an Automated Market Maker](https://coinmarketcap.com/alexandria/glossary/automated-market-maker-amm)
+
+## Slippage Tolerance
+
+slippage tolerance is a parameter that controls the tolerance of the transaction amount.
+
+The greater the slippage tolerance, the higher the tolerance for the expected difference in the transaction, and the success rate of the transaction will increase, but it may also result in greater losses. 
+
+The smaller the slippage, the lower the tolerance for the expected difference of the transaction, the lower the transaction success rate, but each order will be more in line with the estimated situation you see on the web page. 
+
+The default value of slippage tolerance is 0.1%. You can set the slippage tolerance to any value between 0% and 100%.
+
+When the actual transaction differs from the estimated transaction amount more than slippage tolerance, Pando will reject the transaction and refund.
+
+## Swap
+
+### Instant Swap
+
+By default, Pando Proto's Web page calculates the best route for current transaction, and then generates the transaction. User signs the transaction and send it to Pando Proto, Pando Proto will execute the transaction sequentially and return the result to the user. If the transaction fails, Pando Proto will refund to the user.
+
+### Limit Order Swap
+
+Pando Proto will supports limit order swap in the future.
+
+### Swap Fee
+
+Swap fee is the fee charged for each transaction. The swap fee is 0.3% by default for most of liquidity pools. For curve liquidity pools, the swap fee is 0.04%. At present, the curve liquidity pools are pUSD-USDT(ERC-20), pUSD-USDT(TRC-20), pUSD-USDC, pUSD-DAI, and BTC-wBTC.
+
+The swap fee is charged to the token you are swapping out.
+
+## Liquidity Mining Pool
+
+Pando Proto's swap service is powered by Uniswap v2 and Curve algorithms. It requires liquidity providers to provide liquidity to the liquidity pool. The liquidity providers will receive liquidity provider tokens (LP tokens) in return as a certificate of their contribution to the liquidity pool and earn swap fees. It called liquidity mining.
+
+### Impermanent Loss
+
+Adding liquidity is not without risk, as you may be exposed to impermanent loss.
+
+Impermanent loss is a term used to describe the loss that liquidity providers may experience when they deposit their funds into a liquidity pool. This occurs when the price of the two assets in the pool changes relative to each other.
+
+You may want to read [this post](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22) to learn more about impermanent loss.
+
+### Liquidity Provider Token (LP Token)
+
+Liquidity Provider Token (short for "LP token"() refers to the liquidity that is provided by liquidity providers (LPs) who deposit their funds into a liquidity pool in exchange for LP tokens.
+
+LP tokens are used to track individual contributions to the overall liquidity pool, as LP tokens held correspond proportionally to the share of liquidity in the overall pool.
+
+At the most basic level, LP tokens work on the following formula:
+
+`Total Value of Liquidity Pool / Circulating Supply of LP Tokens = Value of 1 LP Token`
+
+Just like other assets, the LP tokens can be transerred and traded.
+
+Whenever a swapping occurs, swap fees is charged to the transaction sender. This fee is distributed pro-rata to all LPs in the pool upon completion of the trade.
+
+To retrieve the underlying liquidity, plus any fees accrued, liquidity providers can remove liquidity, give back their liquidity tokens. This will allow them to exchange LP tokens for their portion of the liquidity pool, plus the proportional fee allocation. 
 

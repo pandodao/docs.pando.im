@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Essential Concepts
 
 ## What's MTG?

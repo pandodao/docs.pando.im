@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Mint and pUSD
 
 Pando Proto has a protocol called "Leaf", which is a decentralized financial network built with the Mixin MTG (Mixin Trusted Group) technology, a place where you can deposit collateral to generate and destory Pando USD(pUSD) and destroy it when repaying the minted pUSD balance.
@@ -41,6 +45,8 @@ Some assets are supported as collaterals, but not yet available for minting new 
 2. sETH-BTC. Min collateral rate: 150%.
 3. LTC. Min collateral rate: 200%.
 3. MOB. Min collateral rate: 200%.
+
+The information above is subject to change. Please refer to the latest information on the Pando Leaf website: https://leaf.pando.im
 
 ## Vaults
 

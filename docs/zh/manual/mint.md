@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # 铸造稳定币 pUSD
 
 Pando Proto 有一个名为“Leaf”的协议，它是一个由 Mixin MTG（Mixin Trusted Group）技术构建的去中心化金融网络，你可以在这里存入抵押品以生成和销毁 Pando USD(pUSD)，并在还款时销毁已铸造的 pUSD 余额。
@@ -45,6 +49,8 @@ pUSD 是一种 [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2
 2. sETH-BTC。 最低抵押率：150%。
 3. LTC。 最低抵押率：200%。
 3. MOB。 最低抵押率：200%。
+
+以上信息如有变更。 最新信息请参考 Pando Leaf 官网：https://leaf.pando.im
 
 ## 金库
 

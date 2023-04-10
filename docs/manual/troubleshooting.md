@@ -15,7 +15,7 @@ Solution:
 1. Try to send the transaction again.
 2. Transfer the ENTIRE asset you want to send to another wallet, and then send the transaction again.
 
-## Why did my swap/liquidity transaction fail?
+## Swap/liquidity transaction failed
 
 In some cases, your transaction may fail due to the following reasons: The slippage tolerance is too low. Please try to increase the slippage tolerance and try again.
 
