@@ -6,7 +6,7 @@ Pando Proto supports [Mixin Messenger](https://docs.pando.im/docs/wallets/mixin-
 
 ## Connect with Metamask
 
-<img src="../public/images/wallets/logo_metamask@40x40.png" width="40"/>
+<img src="https://docs.pando.im/images/wallets/logo_metamask@40x40.png" width="40"/>
 
 Visit [Pando](https://app.pando.im/) and connect with Metamask wallet by tapping the "Connect Wallet" button and choosing the "Metamask" method. 
 
@@ -14,7 +14,7 @@ You will asked to sign a message in EIP-4361 format. Please sign the message and
 
 ## Connect with WalletConnect Compatible Wallets
 
-<img src="../public/images/wallets/logo_walletconnect.svg" width="40"/>
+<img src="https://docs.pando.im/images/wallets/logo_walletconnect.svg" width="40"/>
 
 ### Connect to MVM Bridge with WalletConnect
 
@@ -32,7 +32,7 @@ You will asked to sign a message in EIP-4361 format. Please sign the message and
 
 ## Connect OneKey Wallet
 
-<img src="../public/images/wallets/logo_onekey@40x40.png" width="40"/>
+<img src="https://docs.pando.im/images/wallets/logo_onekey@40x40.png" width="40"/>
 
 Before connecting Pando with OneKey, please read [the official documentation](https://help.onekey.so/hc/en-us) for initial setup of OneKey.
 
@@ -52,12 +52,12 @@ You will asked to sign a message in EIP-4361 format. Please sign the message and
 
 ## Connect with Mixin Messenger
 
-<img src="../public/images/wallets/logo_mixin@40x40.png" width="40"/>
+<img src="https://docs.pando.im/images/wallets/logo_mixin@40x40.png" width="40"/>
 
 To connect with [Mixin Messenger](https://messenger.mixin.one) is pretty simple. Just scan the QR code with Mixin Messenger and you will be connected to Pando.
 
 ## Connect with Fennec
 
-<img src="../public/images/wallets/logo_fennec@40x40.png" width="40"/>
+<img src="https://docs.pando.im/images/wallets/logo_fennec@40x40.png" width="40"/>
 
 Fennec is an alternative wallet for Mixin Messenger. Install [Fennec](https://pando.im/wallet/) on Firefox or Chrome, and connect with Fennec by authorizing the wallet.
