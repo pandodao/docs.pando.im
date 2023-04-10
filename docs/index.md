@@ -14,12 +14,14 @@ hero:
       text: User Manual
       link: /manual/essential
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: "Zero Gas Fees"
+    details: All Pando Protocols are free to use. No gas fees, no transaction fees.
+  - title: "Lightning Fast"
+    details: All transactions are confirmed in seconds. No more waiting for confirmations.
+  - title: "Cross Chains"
+    details: Supports all mainstream blockchains.
+  - title: "Developer Friendly"
+    details: Pando Protocols are designed to be easy to integrate into your projects. Good designed APIs, Specifications and Guides.
 ---
 
