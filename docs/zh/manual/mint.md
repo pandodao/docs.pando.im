@@ -23,6 +23,29 @@ pUSD is an [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2640d
 
 pUSD 是一种 [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2640d19dcb9f62dc2ab66)，自 2020 年 12 月 23 日起已[转移到 Mixin Network](https://etherscan.io/tx/0xccd66572e85d66cc05d50e2a16be0eb2348e34cedd34df89113e4b515caaf210)。因此，您可以将 pUSD 存储在任何 Mixin Network 兼容钱包或以太坊兼容钱包中。
 
+## 支持的抵押品
+
+抵押品是用于铸造 pUSD 的抵押资产。抵押品锁定在金库中，在金库所有者还清铸造的 pUSD 余额时可以收回抵押品。
+
+目前Pando支持使用以下资产作为质押品来铸造pUSD：
+
+1. BTC。 最低抵押率：150%。
+2. ETH。 最低抵押率：150%。
+3. EOS。 最低抵押率：200%。
+4. DOGE。 最低抵押率：200%。
+5. BCH。 最低抵押率：200%。
+6. FIL。 最低抵押率：200%。
+7. ZEC。 最低抵押率：200%。
+8. DOT。 最低抵押率：200%。
+9. UNI。 最低抵押率：200%。
+
+支持一些资产作为抵押品，但尚不能用于铸造新的 pUSD：
+
+1. XIN。 最低抵押率：200%。
+2. sETH-BTC。 最低抵押率：150%。
+3. LTC。 最低抵押率：200%。
+3. MOB。 最低抵押率：200%。
+
 ## 金库
 
 金库是所有者存入抵押品和铸造稳定加密货币 pUSD 的地方。
@@ -43,9 +66,6 @@ pUSD 是一种 [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2
 
 稳定费是不断添加到金库所有者铸造的 pUSD 余额中的可变费率。可以将其理解为您为贷款（铸造的 pUSD）支付的利息。
 
-### 抵押品
-
-抵押品是用于铸造 pUSD 的抵押资产。抵押品锁定在金库中，在金库所有者还清铸造的 pUSD 余额时可以收回抵押品。
 
 ## Leaf 清算
 

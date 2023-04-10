@@ -19,6 +19,29 @@ The total supply of pUSD is 1,000,000,000,000, of which 999,975,000,000 are lock
 
 pUSD is an [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2640d19dcb9f62dc2ab66), and has been transfered to Mixin Network since [Dec 23th 2020](https://etherscan.io/tx/0xccd66572e85d66cc05d50e2a16be0eb2348e34cedd34df89113e4b515caaf210). So you can store pUSD in any Mixin Network compatible wallet or Ethereum-compatible wallet.
 
+## Supported Collaterals
+
+The collateral is the pledged asset that is used to mint pUSD. The collateral is locked in the vault and can be reclaimed when the vault owner repays the minted pUSD balance.
+
+At present, Pando supports to use following assets as collateral to mint pUSD:
+
+1. BTC. Min collateral rate: 150%.
+2. ETH. Min collateral rate: 150%.
+3. EOS. Min collateral rate: 200%.
+4. DOGE. Min collateral rate: 200%.
+5. BCH. Min collateral rate: 200%.
+6. FIL. Min collateral rate: 200%.
+7. ZEC. Min collateral rate: 200%.
+8. DOT. Min collateral rate: 200%.
+9. UNI. Min collateral rate: 200%.
+
+Some assets are supported as collaterals, but not yet available for minting new pUSD:
+
+1. XIN. Min collateral rate: 200%.
+2. sETH-BTC. Min collateral rate: 150%.
+3. LTC. Min collateral rate: 200%.
+3. MOB. Min collateral rate: 200%.
+
 ## Vaults
 
 A Vault is where the vault owner deposit pledged asset and minted stable cyptocurrency pUSD. 
@@ -38,10 +61,6 @@ The vault-specific debt ceiling is the maximum amount of pUSD that can be minted
 ### Stability Fees
 
 The stability fee is a variable-rate fee continuously added to a vault owner's minted pUSD balance. It can be understood as the interests you pay for the loan (minted pUSD).
-
-### Collateral
-
-The collateral is the pledged asset that is used to mint pUSD. The collateral is locked in the vault and can be reclaimed when the vault owner repays the minted pUSD balance.
 
 ## Leaf Liquidation
 
