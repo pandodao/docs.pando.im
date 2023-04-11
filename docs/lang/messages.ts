@@ -17,6 +17,9 @@ export const messages = {
     "troubleshooting": "Troubleshooting",
     "audit_report": "Audit report",
     "claim_free_coin": "Claim free coin",
+    "lend_and_borrow": "Lend and borrow",
+    "support": "Support",
+    "community": "Community",
   },
   "zh": {
     "home": "首页",
@@ -36,6 +39,9 @@ export const messages = {
     "troubleshooting": "故障排除",
     "audit_report": "审计报告",
     "claim_free_coin": "领取免费代币",
+    "lend_and_borrow": "借出和借入",
+    "support": "支持",
+    "community": "社区",
   },
 }
 
