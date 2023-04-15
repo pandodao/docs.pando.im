@@ -74,3 +74,37 @@ Whenever a swapping occurs, swap fees is charged to the transaction sender. This
 
 To retrieve the underlying liquidity, plus any fees accrued, liquidity providers can remove liquidity, give back their liquidity tokens. This will allow them to exchange LP tokens for their portion of the liquidity pool, plus the proportional fee allocation. 
 
+## Token Tags
+
+At Pando, we want to assist you in safely exploring and discovering assets, and making informed decisions regarding them. This is why we've implemented Token Tags.
+
+When swapping or navigating Pando Proto, you may come across red or yellow warnings, which are determined by the Token Tags. These warnings are designed to notify you of the potentially increased risk associated with trading these tokens.
+
+How are token safety tags determined?
+
+1. Proto Default Tag: **No Warning**. Any token that has been listed by at least one US-based exchange. In very rare cases, a token separately reviewed and approved by Pando MTG members.
+2. Proto Extended Tag: **Caution**. Any token that is frequently swapped on Pando Proto and has satisfied the quantitative criteria. We plan to update these criteria over time.
+3. Not with two above tags: **Warning**. Any token that not satisfied the quantitative criteria.
+4. Blacklisted: The token is blacklisted by Pando Proto and cannot be swapped.
+
+### Token Visibility
+
+For the tokens that are labeled as "Default" or "Extended", they are visible in all senarios: search, swap, and liquidity mining pool list.
+
+For the tokens that are not labeled as "Default" or "Extended", they are only visible at the swap page. 
+
+### Token Tags Criteria
+
+The following criteria are used to determine the "Extended" tag:
+
+1. The token has been listed on Coinmarketcap for at least 180 days, and in the top 200 by market cap.
+2. The token has good liquidity routes to pUSD. The routes from pUSD to the token should have good liquidity with low price impact.
+
+Any token that satisfies any of the above criteria will be labeled as "Extended".
+
+### Additional Disclosure
+
+Token Tags are created using information from third-party data providers. Pando MTG members does not guarantee their accuracy and makes no representations or warranties about their relevance or currentness. Data frequently is not available for selected tokens, particularly newer or less popular tokens, and no tokens are reviewed for their quality, merits, or soundness as investments.
+
+Our Token Tags and Token Warnings are not investment advice and should not be construed as such. They do not purport to be exhaustive as to all potential risks; always conduct your own research about tokens before buying or selling them. All information is provided for informational purposes only and is not a recommendation of any investment strategy, nor is it a solicitation to buy or sell any investment. You should not buy or sell any asset without first determining if it is appropriate for your portfolio or investment strategy. All investments involve risks, including the potential loss of principal.
+

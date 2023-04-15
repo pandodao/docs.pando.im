@@ -20,6 +20,7 @@ export const messages = {
     "lend_and_borrow": "Lend and borrow",
     "support": "Support",
     "community": "Community",
+    "listing": "Listing",
   },
   "zh": {
     "home": "首页",
@@ -42,6 +43,7 @@ export const messages = {
     "lend_and_borrow": "借出和借入",
     "support": "支持",
     "community": "社区",
+    "listing": "上币申请",
   },
 }
 

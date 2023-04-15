@@ -30,9 +30,14 @@ const genI18nSidebar = () => {
         ]
       },
       {
+        text: t(lang, 'other_topics'),
+        items: [
+          { text: t(lang, 'listing'), link: `${prefix}/tutorials/listing` },
+        ]
+      },
+      {
         text: t(lang, 'community'),
         items: [
-          { text: t(lang, 'user_story'), link: `${prefix}/tutorials/user_story` },
           { text: t(lang, 'support'), link: `${prefix}/tutorials/support` },
         ]
       }
