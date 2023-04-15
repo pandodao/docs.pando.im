@@ -66,7 +66,11 @@ The vault-specific debt ceiling is the maximum amount of pUSD that can be minted
 
 ### Stability Fees
 
+The stability fee rate is also known as Leaf's interests rate.
+
 The stability fee is a variable-rate fee continuously added to a vault owner's minted pUSD balance. It can be understood as the interests you pay for the loan (minted pUSD).
+
+The stability rate is voted by Pando Leaf's MTG members based on the external market environment. Every month, MTG members will evaluate the external market environment and vote to determine the stability rate according to the market environment. The latest stability rate can be checked on [Pando Leaf](https://leaf.pando.im).
 
 ## Leaf Liquidation
 

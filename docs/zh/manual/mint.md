@@ -70,8 +70,11 @@ pUSD 是一种 [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2
 
 ### 稳定费
 
+稳定费率也被称为 Leaf 的利率。
+
 稳定费是不断添加到金库所有者铸造的 pUSD 余额中的可变费率。可以将其理解为您为贷款（铸造的 pUSD）支付的利息。
 
+稳定费率是 Pando Leaf 的 MTG 环境根据外部市场环境投票制定的。每个月 MTG 成员都会评估外部市场环境，并根据市场环境投票决定稳定费率。最新的稳定费率可以在 [Pando Leaf](https://leaf.pando.im) 上查看。
 
 ## Leaf 清算
 
