@@ -15,13 +15,23 @@ Depositing pledged assets and repaying the minted pUSD balance both happen in a 
 
 When a vault is liquidated, a liquidation penalty is applied and collateral is sold to repay the vault’s outstanding stablecoin balance.
 
-## Pando USD
+## Pando USD (pUSD)
 
 Pando USD (short for "pUSD") is a stablecoin that is pegged to the US dollar. It is a decentralized stablecoin that is minted and destroyed by the Pando Leaf protocol.
 
 The total supply of pUSD is 1,000,000,000,000, of which 999,975,000,000 are locked in a 5/6 Mixin Trusted Group which are managed by BigONE, Exin, FOX, Rum System and Team Mixin. The remaining 25,000,000 is releasable to the public at Pando Leaf, which is a 4/6 Mixin Trusted Group.
 
 pUSD is an [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2640d19dcb9f62dc2ab66), and has been transfered to Mixin Network since [Dec 23th 2020](https://etherscan.io/tx/0xccd66572e85d66cc05d50e2a16be0eb2348e34cedd34df89113e4b515caaf210). So you can store pUSD in any Mixin Network compatible wallet or Ethereum-compatible wallet.
+
+### Where can I get pUSD?
+
+There are several way to get pUSD. 
+
+For minting pUSD, you can visit Pando Leaf (ID: 7000103924, URL: https://leaf.pando.im) to mint pUSD by pledging collaterals.
+
+For trading pUSD, you can use Pando (ID: 7000105018, URL: https://app.pando.im) to swap for pUSD with other cryptocurrency. Exin Team's bot "Mixswap (ID: 7000103767)" also support to swap for pUSD.
+
+If you prefer to buy pUSD with fiat, you can try "Tiga (ID: 7000104206)" to buy pUSD with USD, CNY or other fiat currencies.
 
 ## Supported Collaterals
 

@@ -17,7 +17,7 @@ Pando Proto 有一个名为“Leaf”的协议，它是一个由 Mixin MTG（Mix
 
 欲了解更多技术细节，请参阅 Pando Leaf 技术设计。
 
-## Pando USD
+## Pando USD (pUSD)
 
 Pando USD（简称“pUSD”）是与美元挂钩的稳定币。它是由 Pando Leaf 协议铸造和销毁的去中心化稳定币。
 
@@ -26,6 +26,17 @@ pUSD 的总供应量为 1,000,000,000,000，其中 999,975,000,000 锁定在 5/6
 pUSD is an [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2640d19dcb9f62dc2ab66), and has been transfered to Mixin Network since [Dec 23th 2020](https://etherscan.io/tx/0xccd66572e85d66cc05d50e2a16be0eb2348e34cedd34df89113e4b515caaf210). So you can store pUSD in any Mixin Network compatible wallet or Ethereum-compatible wallet.
 
 pUSD 是一种 [ERC20 token](https://etherscan.io/address/0xdbaef6da45984a9329c2640d19dcb9f62dc2ab66)，自 2020 年 12 月 23 日起已[转移到 Mixin Network](https://etherscan.io/tx/0xccd66572e85d66cc05d50e2a16be0eb2348e34cedd34df89113e4b515caaf210)。因此，您可以将 pUSD 存储在任何 Mixin Network 兼容钱包或以太坊兼容钱包中。
+
+
+### 我在哪里可以获得 pUSD？
+
+有几种方法可以获得 pUSD。
+
+铸造 pUSD，可以访问 Pando Leaf（ID：7000103924，URL：https://leaf.pando.im）通过质押抵押来铸造 pUSD。
+
+交易 pUSD，您可以使用 Pando（ID：7000105018，URL：https://app.pando.im）用其他加密货币兑换pUSD 。 Exin团队的机器人“Mixswap（ID：7000103767）”也支持兑换pUSD。
+
+如果你更喜欢用法币购买 pUSD，你可以试试 “Tiga（ID：7000104206）”用美元、人民币或其他法币购买 pUSD。
 
 ## 支持的抵押品
 
