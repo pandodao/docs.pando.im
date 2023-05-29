@@ -18,7 +18,7 @@ Every transaction on Pando's trade function will have an impact on the price.
 
 If the total amount of the liquidity pool is large, the transaction amount is negligible relative to the depth of the liquidity pool, and this transaction will have a very low price impact, which called slippage.
 
-When the impact reaches a certain level, the price on 4swap is different from the prices on other exchanges, which will form an arbitrage space. There are many automatic arbitrage robots working hard all the time to ensure consistent prices.
+When the impact reaches a certain level, the price on Pando is different from the prices on other protocols/exchanges, which will form an arbitrage space. There are many automatic arbitrage robots working hard all the time to ensure consistent prices.
 
 ::: warning
 It is important to pay attention to the size of the transaction amount relative to the total amount of liquidity. If the transaction amount is too high relative to the total amount of the liquidity pool, the transaction price will seriously deviate from the market price, resulting in greater losses.
@@ -28,7 +28,7 @@ It is important to pay attention to the size of the transaction amount relative 
 
 In theory, Pando supports all the cryptocurrencies supported by Mixin Network, but there are some restrictions on different protocols.
 
-1. 4swap supports all the cryptocurrencies supported by Mixin Network. For the cryptocurrencies that are not listed on 4swap, you can create new pool by yourself to add them at https://governance.pando.im
+1. Pando supports all the cryptocurrencies supported by Mixin Network. For the cryptocurrencies that are not listed on Pando Trade, you can create new pool by yourself to add them at https://governance.pando.im
 2. Leaf only supports cryptocurrencies that has high reputation and good liquidity as pledge assets. 
 3. Rings currently doesn't accept any new currencies.
 

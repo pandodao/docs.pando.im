@@ -37,8 +37,26 @@ MTG是“Mixin Trusted Group”的简称，是一种基于Mixin Network多重签
 
 每个交易所的现货价格是其现货交易对的最佳卖出、最佳买入和最后交易价格的中位数。
 
-我们将通过 4swap 调整价格指数到 Pusd。
+我们将以 Pando 中 pUSD 的价格为基准，更新价格指数。
 
 ### 价格延迟机制
 
 为避免货币价格在短时间内快速下跌，从而导致抵押品结算不足，经过多重签名节点确认的货币价格不会立即应用于 Panduoye，而会有 30 分钟的延迟。
+
+
+### 充值与跨链桥
+
+Pando Proto 建立在 Mixin Network（https://mixin.network）之上，因此您需要先将加密资产存入 Mixin Network，然后才能使用 Pando Proto。
+
+将加密资产存入 Mixin Network 主要有三种方式：
+
+1. 使用内置充值功能：将钱包连接到 Pando Proto 后，您可以点击“充值”按钮，通过第三方服务 MixPay 将加密资产充值到 Mixin Network。 这可能会花费您一些费用，并且需要一些时间来完成存款。
+2. 使用 MVM 跨链桥：如果您使用 WalletConnect 连接钱包，您可以使用 MVM 跨链桥将加密资产从 ETH、BSC、HECO、OKExChain、Polygon 等存入 Mixin Network。请访问 https://bridge.mvm.app/ 访问跨链桥。
+3. 将资产转入 Mixin Messenger/Fennec：如果您有 Mixin Messenger 或 Fennec，您可以将资产从任意地址转入您在 Mixin Messenger/Fennec 的钱包地址，即可使用 Mixin Messenger/Fennec 中的资产在 Pando 上进行操作。
+
+### Gas 费
+
+默认情况下，使用 Pando Proto 不需要 gas 费。 但是，有一些场景可能需要 gas fee：
+
+1. Pando Leaf 和 Rings 上的部分操作，调用动作需要花费 0.00000001 ETH。虽然数量很少，但它可以被认为是 Pando Proto 收取的 gas 费。
+2. 对于将钱包连接到WalletConnect和MetaMask的用户，Pando Proto上 的所有操作都会产生一定的 gas 费用。 gas 费用由 MVM（https://mvm.app）收取，而非 Pando Proto。具体的值请参考 MVM 区块浏览器： https://scan.mvm.dev/
