@@ -12,6 +12,10 @@ Pando Proto 支持 [Mixin Messenger](https://docs.pando.im/docs/wallets/mixin-me
 
 您将被要求签名一条 EIP-4361 格式的消息。 请在消息上签名，您将连接到 Pando。
 
+::: tip
+You may need to add the asset contract manually. There is a pink "+" button at the swap form. Click it to add the asset contract to MetaMask.
+:::
+
 ## 与 WalletConnect 兼容的钱包连接
 
 <img src="https://docs.pando.im/images/wallets/logo_walletconnect.svg" width="40"/>

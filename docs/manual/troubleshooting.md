@@ -36,4 +36,25 @@ Please try the following solutions:
 1. Check your network connection. If you're using a VPN, please try to switch to another VPN server.
 2. If you're living in China, please try hard to overcome the network blockade. You can try to use a VPN or a proxy server.
 
+## "32603 Internal JSON-RPC error"
 
+If you encounter the following error message when you try to send a transaction by MetaMask or WalletConnect Wallets:
+
+```
+-32603 Internal JSON-RPC error
+```
+
+The most possible reason is that you don't have enough ETH to pay the transaction fee. Please check your balance and try again.
+
+If you don't have enough ETH, you can try to transfer some ETH to your wallet, or swap for some ETH on Pando Proto.
+
+## I can't see my assets in my wallet
+
+If you're using MetaMask or WalletConnect compatible Wallets, you need to add the asset contract manually. 
+
+For metamask, pando provides a simple way to do that:
+
+1. Switch to the "Trade" tab, both "Simple" and "Pro" mode are OK.
+2. There is a pink "+" button at the swap form. Click it to add the asset contract to MetaMask.
+
+For other wallets that compatible with WalletConnect, please use "[MVM Bridge](https://bridge.mvm.app/)" manage your assets.

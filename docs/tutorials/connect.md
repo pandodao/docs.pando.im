@@ -12,6 +12,10 @@ Visit [Pando](https://app.pando.im/) and connect with Metamask wallet by tapping
 
 You will asked to sign a message in EIP-4361 format. Please sign the message and you will be connected to Pando.
 
+::: tip
+您可能需要手动添加资产合约才能使资产在您的钱包中可见。 Swap 页面上有一个粉红色的“+”按钮。 单击它可以将资产合约添加到 MetaMask 中。
+:::
+
 ## Connect with WalletConnect Compatible Wallets
 
 <img src="https://docs.pando.im/images/wallets/logo_walletconnect.svg" width="40"/>
