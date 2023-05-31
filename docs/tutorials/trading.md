@@ -1,4 +1,4 @@
-# Tradeing
+# Trading
 
 ## How to swap
 

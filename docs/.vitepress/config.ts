@@ -24,7 +24,7 @@ const genI18nSidebar = () => {
         text: t(lang, 'tutorial'),
         items: [
           { text: t(lang, 'connect_wallet'), link: `${prefix}/tutorials/connect` },
-          { text: t(lang, 'trading'), link: `${prefix}/tutorials/swap` },
+          { text: t(lang, 'trading'), link: `${prefix}/tutorials/trading` },
           { text: t(lang, 'liquidity_mining'), link: `${prefix}/tutorials/liquidity` },
           { text: t(lang, 'mint'), link: `${prefix}/tutorials/mint` }
         ]
