@@ -49,6 +49,7 @@ const genI18nSidebar = () => {
           { text: t(lang, 'essential'), link: `${prefix}/manual/essential` },
           { text: t(lang, 'trade_and_swap'), link: `${prefix}/manual/trade` },
           { text: t(lang, 'mint_and_pusd'), link: `${prefix}/manual/mint` },
+          { text: t(lang, 'earn_crypto'), link: `${prefix}/manual/earn` },
           { text: t(lang, 'claim_free_coin'), link: `${prefix}/manual/catkin` },
           { text: t(lang, 'lend_and_borrow'), link: `${prefix}/manual/rings` },
         ]
