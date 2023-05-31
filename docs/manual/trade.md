@@ -32,19 +32,29 @@ When the actual transaction differs from the estimated transaction amount more t
 
 ## Swap
 
-### Instant Swap
-
 By default, Pando Proto's Web page calculates the best route for current transaction, and then generates the transaction. User signs the transaction and send it to Pando Proto, Pando Proto will execute the transaction sequentially and return the result to the user. If the transaction fails, Pando Proto will refund to the user.
-
-### Limit Order Swap
-
-Pando Proto will supports limit order swap in the future.
 
 ### Swap Fee
 
 Swap fee is the fee charged for each transaction. The swap fee is 0.3% by default for most of liquidity pools. For curve liquidity pools, the swap fee is 0.04%. At present, the curve liquidity pools are pUSD-USDT(ERC-20), pUSD-USDT(TRC-20), pUSD-USDC, pUSD-DAI, and BTC-wBTC.
 
 The swap fee is charged to the token you are swapping out.
+
+## Limit Order
+
+Pando Proto's limit order protocol executer is a full unattended process that will monitor the market and execute the order.
+
+The executer will check the market in intervals, scan the pending orders from the first to the last, fetch the current market price, and execute the order if the market price reaches the order price.
+
+Limit order is useful when you want to trade at a specific price. For example, if you want to buy some BTC at a lower price, you can set the price lower than the current market price. If the market price reaches the price you set, the order will be filled.
+
+### Order Expiry
+
+User can set the order expiry from 1 day, 7 days and 30 days. The default order expiry is 30 days. If the order is not executed within the expiry, it will be automatically cancelled and refunded.
+
+### Order Fee
+
+Currently, limit order protocol does not charge any additional fee for limit orders. But the swap fee will be charged by the swap protocol.
 
 ## Liquidity Mining Pool
 
