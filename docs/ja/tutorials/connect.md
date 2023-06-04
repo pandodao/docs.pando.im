@@ -6,9 +6,7 @@ Pando Protoは [Mixin Messenger](https://docs.pando.im/docs/wallets/mixin-messen
 
 ## Metamaskで接続する
 
-<img src=
-"https://docs.pando.im/images/wallets/logo_metamask@40x40.png"
-width="40"/>
+<img src="https://docs.pando.im/images/wallets/logo_metamask@40x40.png" width="40"/>
 
  [Pando](https://app.pando.im/) にアクセスし「Connect Wallet」ボタンをタップして「Metamask」を選択してMetamaskウオレットと接続します。
 
@@ -16,9 +14,7 @@ EIP-4361形式のメッセージに署名するように求められます。メ
 
 ## WalletConnect互換のウォレットで接続する
 
-<img src=
-"https://docs.pando.im/images/wallets/logo_walletconnect.svg"
-width="40"/>
+<img src="https://docs.pando.im/images/wallets/logo_walletconnect.svg" width="40"/>
 
 ### WalletConnectを使用してMVM ブリッジに接続する
 
@@ -36,9 +32,7 @@ EIP-4361形式のメッセージに署名するよう求められます。署名
 
 ## OneKeyウォレットと接続する
 
-<img src=
-"https://docs.pando.im/images/wallets/logo_onekey@40x40.png"
-width="40”/>
+<img src="https://docs.pando.im/images/wallets/logo_onekey@40x40.png" width="40" />
 
 OneKeyとPandoを接続する前に、OneKeyの公式ドキュメント [OneKey公式ドキュメント](https://help.onekey.so/hc/en-us (https://help.onekey.so/hc/en-us)を参照し、初期設定を行なってください。
 
