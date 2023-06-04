@@ -73,7 +73,7 @@ export const messages = {
     "support": "サポート",
     "community": "コミュニティ",
     "listing": "上場申請",
-  },
+  }
 }
 
 export const t = (lang, key: string) => {
