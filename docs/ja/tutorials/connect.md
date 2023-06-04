@@ -2,7 +2,7 @@
 
 ## 対応ウォレット
 
-Pando Protoは [Mixin Messenger](https://docs.pando.im/docs/wallets/mixin-messenger), [Fennec](https://pando.im/fennec/)[Metamask](https://metamask.io/) およびすべてのWalletConnect互換のウォレットをサポートしています。
+Pando Protoは [Mixin Messenger](https://docs.pando.im/docs/wallets/mixin-messenger), [Fennec](https://pando.im/fennec/), [Metamask](https://metamask.io/) およびすべてのWalletConnect互換のウォレットをサポートしています。
 
 ## Metamaskで接続する
 
@@ -34,7 +34,7 @@ EIP-4361形式のメッセージに署名するよう求められます。署名
 
 <img src="https://docs.pando.im/images/wallets/logo_onekey@40x40.png" width="40" />
 
-OneKeyとPandoを接続する前に、OneKeyの公式ドキュメント [OneKey公式ドキュメント](https://help.onekey.so/hc/en-us (https://help.onekey.so/hc/en-us)を参照し、初期設定を行なってください。
+OneKeyとPandoを接続する前に、OneKeyの公式ドキュメント [OneKey公式ドキュメント](https://help.onekey.so/hc/en-us)を参照し、初期設定を行なってください。
 
 ### OneKeyで MVMブリッジに接続する
 
