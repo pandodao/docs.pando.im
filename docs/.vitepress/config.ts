@@ -17,7 +17,7 @@ const genNav = () => {
 
 const genI18nSidebar = () => {
   const ret = {};
-  for (const lang of ['en', 'zh']) {
+  for (const lang of ['en', 'zh', 'ja']) {
     const prefix = lang === 'en' ? '' : '/' + lang;
     ret[`${prefix}/tutorials/`] = [
       {
@@ -83,6 +83,10 @@ export default defineConfig({
     zh: {
       label: '简体中文',
       lang: 'zh',
+    },
+    ja: {
+      label: '日本語',
+      lang: 'ja',
     }
   },
   themeConfig: {
