@@ -1,13 +1,13 @@
-# Tutorials
+# チュートリアル
 
-## What is Pando?
+## Pandoとは何ですか？
 
-Pando is a decentrialized financial network built with [Mixin Trusted Group](https://docs.pando.im/docs/security/mtg), including a series of open financial protocols.
+Pandoは[Mixin Trusted Group](https://docs.pando.im/docs/security/mtg)を利用して構築された分散型金融ネットワークであり、さまざまなオープンな金融プロトコルを含んでいます。
 
-Based on the mechanism of trusted network, Pando combines most common decentralized financial applications into one product to serve users and is constantly evolving to provide more comprehensive financial services.
+信頼されたネットワークの仕組みに基づいて、Pandoは最も一般的な分散型金融アプリケーションを1つの製品に統合し、ユーザーにサービス提供しています。Pandoはより包括的な金融サービスを提供するために常に進化を続けています。
 
 ::: tip
-Just want to try it out? Skip to the [Connect Wallet](./connect.md).
+すぐに試してみたいですか？ [Connect Wallet](./connect.md)にスキップしてください。
 :::
 
 ## Where to access Pando?
@@ -18,24 +18,20 @@ The goal of the web application is to provide a unified interface for users to a
 
 Leaf protocol and Rings protocol will be integrated in the future.
 
-### Is there an iOS and Android app?
+## Pandoの主要なプロトコル
 
-Currently, Pando does not have iOS and Android apps. However, you can visit Pando Proto's web application (https://app.pando.im) using your mobile browser. You can also use Pando Proto in Mixin Messenger, open Mixin Messenger, search for "7000105018", to use Pando Proto's bot in Mixin Messenger.
+Pandoには、4swap、Leaf、Ringsの3つの主要なプロトコルがあります。
 
-## The Majorities of Pando Protocols
+- [4swap](https://pando.im/4swap)は、Mixin Network上に構築された最初の分散型スワッピングプロトコルです。AMMモデルを実装し、ユーザーに流動性マイニングを提供するもので、Uniswap V2やCurveと互換性があります。4swapはスワップと呼ばれる「トレード」機能（スワップとも呼ばれます）をサポートしています。また、「Earn」ページにおいて「流動性マイニング」機能もサポートしています。
 
-There are 3 major protocols in Pando, including 4swap, Leaf and Rings.
+- [Leaf](https://pando.im/leaf)は、Mixin Network上に構築された分散型のミンティングプロトコルです。MakerDAOと同様の担保機構を採用し、「PUSD」と呼ばれるステーブルコインを発行します。
 
-- [4swap](https://pando.im/4swap) is the first decentralized swapping protocol built on Mixin Network. It implements the AMM model and provides liquidity mining for users, which is compatible with Uniswap V2 and Curve. 4swap supports the "trade" function, also known as "swap". It also supports the "Liquidity Mining" function at "Earn" page.
-  - Currently, 4swap only exists as a protocol, and its web application has been integrated into Pando Proto (https://app.pando.im)
-- [Leaf](https://pando.im/leaf) is a decentralized minting protocol built on Mixin Network. It uses the pledge mechanism that similar to MakerDAO and issues stablecoins called "PUSD".
-- [Rings](https://pando.im/rings) is a decentralized lending protocol built on Mixin Network. It implements compound V1 interest model and provides liquidity mining for users. Rings is not in development anymore and is keeping in minimal running.
+-[Rings](https://pando.im/rings)は、Mixin Network上で構築された分散型のレンディングプロトコルです。Compound V1の利息モデルを実装し、ユーザー向けの流動性マイニングを提供しています。Ringsは現在、最小限の稼働にとどめています。
 
-## Other Pando Protocols/Products
+## その他のPandoのプロトコル/製品
 
-In addition to the three major protocols, Pando has a few other products and protocols, including:
+3つの主要なプロトコルに加え、Pandoは他にもいくつかの製品やプロトコルを有しています：
 
-- [Fennec](https://pando.im/wallet): An open source browser extension wallet based on Mixin Network, supporting Chrome and Firefox browsers.
-- [Talkee](https://pando.im/talkee): A Web3 comment and chat protocol, in addition to basic comment and chat functions, it also supports likes, rewards, and airdrops.
-- [Catkin](https://pando.im/catkin): A protocol for earning cryptocurrency for free. Users can receive cryptocurrency for free on Catkin, or earn cryptocurrency by completing tasks.
-
+- [Fennec](https://pando.im/wallet)：Mixin Networkをベースとしたオープンソースのブラウザ拡張ウォレットで、ChromeとFirefoxブラウザをサポートしています。
+- [Talkee](https://pando.im/talkee)：Web3のコメントとチャットのプロトコルです。基本的なコメントとチャット機能に加えて、いいね、リワード、エアドロップもサポートしています。
+- [Catkin](https://pando.im/catkin)：無料で暗号通貨を獲得するためのプロトコルです。ユーザーはCatkin上で暗号通貨を無料で受け取ったり、タスクを完了して暗号通貨を獲得したりすることができます。

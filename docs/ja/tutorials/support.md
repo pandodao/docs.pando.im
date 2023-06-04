@@ -1,11 +1,11 @@
-# Support
+# サポート
 
-## Discussions
+## ディスカッション
 
-- [Discord Channel](https://discord.gg/ek45g3Cymd)
-- Mixin Group: Search `7000104110` in [Mixin Messenger](https://mixin.one/messenger) to join the group.
+- [Discord](https://discord.gg/ek45g3Cymd)
+- Mixin Group: [Mixin Messenger](https://mixin.one/messenger) でID 7000104110 を検索してグループに参加してください。
 
-## Media
+## メディア
 
-- [@PandoIm](https://twitter.com/pando_im)
-- [@Pando 日本語](https://twitter.com/pando_ja) 
+- [@Pando im](https://twitter.com/pando_im)
+- [@Pando 日本語](https://twitter.com/pando_ja)
