@@ -84,6 +84,16 @@ The stability rate is voted by Pando Leaf's MTG members based on the external ma
 
 ## Leaf Liquidation
 
+If the value of a vault’s collateral falls below the vault’s Liquidation Price, the vault becomes vulnerable to liquidation. When a vault is liquidated, a liquidation penalty is applied and collateral is sold to repay the vault’s outstanding stablecoin balance.
+
+The whole process of liquidation is automatic and decentralized. The liquidation process is as follows:
+
+1. The liquidated vaults are put into the auction queue.
+2. The auction program will sell the collateral of the vault to repay the stablecoin debt.
+3. Users can bid for the collateral of the vault in the auction page.
+4. If the auctions are completed in Phase 2, there may remain some collateral after the auction. The remaining collateral will be returned to the vault owner.
+5. If the auctions are not completed in Phase 2, there will be no remaining collateral after the auction. The vault owner will lose all the collateral.
+
 ### Leaf Liquidation Ratio
 
 The Liquidation Ratio is the minimum required collateralization level for each vault type before it is considered undercollateralized and subject to liquidation.
