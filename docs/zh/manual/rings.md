@@ -18,6 +18,9 @@ Pando Rings 中通过一种称为 rToken 的代币来追踪资产供应，这是
 
 与许多其他 DeFi 项目类似，Pando Rings 采用超额抵押的概念。 这意味着贷款人必须供应比贷款更多的价值以避免被清算。
 
+## Pando Rings 的清算
+
+
 ## Pando Rings 的状态
 
 Pando Rings 目前处于停滞开发状态：

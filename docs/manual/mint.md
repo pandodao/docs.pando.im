@@ -104,6 +104,12 @@ Each vault type’s Liquidation Ratio is determined by a combination of the coll
 Liquidation Ratio = (Collateral Amount x Collateral Price) ÷ Minted pUSD × 100
 ```
 
+### Next Price
+
+The next price is the price Pando Leaf will accept in next tick round.
+
+By default, the next price is the price will be applied after 30 minutes. It give the vault owner a chance to add more collateral or return pUSD to the vault to avoid liquidation.
+
 ### Liquidation Price
 
 The liquidation rrice is the price at which a vault becomes vulnerable to liquidation.

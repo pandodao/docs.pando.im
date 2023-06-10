@@ -18,6 +18,16 @@ Borrowing is a bit more complicated. To borrow, supplying is not enough - you ha
 
 Similar to many other DeFi projects, Pando Rings works with the concept of overcollateralization. This means that borrowers have to supply more value than they wish to borrow to avoid liquidation.
 
+## Liquidation in Pando Rings 
+
+If the value of the collateral drops below a certain threshold, the position will be liquidated. This means that the collateral will be sold off to repay the debt.
+
+The liquidation process is as follows:
+
+1. The liquidated collaterals are put into the liquidation queue.
+2. The automatic liquidation bot will buy the collaterals in the queue at additional premium of -5% for liquidation price.
+3. Each liquidation will be executed in a single transaction. At most 50% of the collateral will be liquidated in a single transaction.
+
 ## The status of Pando Rings
 
 Pando Rings is currently in the stalled state. The project is not under active development. The status of Rings is as follows:
