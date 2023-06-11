@@ -10,23 +10,22 @@ Pandoは[Mixin Trusted Group](https://docs.pando.im/docs/security/mtg)を利用�
 すぐに試してみたいですか？ [Connect Wallet](./connect.md)にスキップしてください。
 :::
 
-## Where to access Pando?
+## Pandoへのアクセスは？
 
-Pando Proto's web application is available at https://app.pando.im.
+Pando ProtoのWebアプリケーションは、https://app.pando.im
 
-The goal of the web application is to provide a unified interface for users to access all Pando protocols and products. Right now, 4swap protocol has been integrated into the web application, and the 4swap's legacy web application (https://app.4swap.org) will be deprecated.
+Webアプリケーションの目的は、ユーザーがすべてのPandoプロトコルと製品にアクセスするための統一されたインターフェイスを提供することです。現在、4swapプロトコルはWebアプリケーションに統合され、4swapの従来のWebアプリケーション（https://app.4swap.org）は廃止されます。
 
-Leaf protocol and Rings protocol will be integrated in the future.
+LeafプロトコルとRingsプロトコルは、将来的に統合される予定です。
+
 
 ## Pandoの主要なプロトコル
 
 Pandoには、4swap、Leaf、Ringsの3つの主要なプロトコルがあります。
 
 - [4swap](https://pando.im/4swap)は、Mixin Network上に構築された最初の分散型スワッピングプロトコルです。AMMモデルを実装し、ユーザーに流動性マイニングを提供するもので、Uniswap V2やCurveと互換性があります。4swapはスワップと呼ばれる「トレード」機能（スワップとも呼ばれます）をサポートしています。また、「Earn」ページにおいて「流動性マイニング」機能もサポートしています。
-
 - [Leaf](https://pando.im/leaf)は、Mixin Network上に構築された分散型のミンティングプロトコルです。MakerDAOと同様の担保機構を採用し、「PUSD」と呼ばれるステーブルコインを発行します。
-
--[Rings](https://pando.im/rings)は、Mixin Network上で構築された分散型のレンディングプロトコルです。Compound V1の利息モデルを実装し、ユーザー向けの流動性マイニングを提供しています。Ringsは現在、最小限の稼働にとどめています。
+- [Rings](https://pando.im/rings)は、Mixin Network上で構築された分散型のレンディングプロトコルです。Compound V1の利息モデルを実装し、ユーザー向けの流動性マイニングを提供しています。Ringsは現在、最小限の稼働にとどめています。
 
 ## その他のPandoのプロトコル/製品
 

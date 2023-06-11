@@ -2,38 +2,39 @@
 outline: deep
 ---
 
-# Earn
+# Earn（収益化）
 
-Pando Proto provide an Earn plaze for users to earn crypto assets. Earn plaze is basically an index web page that list all the available earn booths. Some booths are provided by Pando Proto, some are provided by third party developers. Please be aware that Pando Proto does not guarantee the security of third party booths.
+Pando Protoは、ユーザーが暗号資産を獲得するための「Earnプレイス」を提供しています。Earnプレイスは、基本的には利用可能なすべての収益化ブースがリストされたインデックスwebページです。一部のブースはPando Protoによって提供され、他のブースはサードパーティの開発者によって提供されています。サードパーティのブースのセキュリティはPando Protoによって保証されていないことに注意してください。
 
-## Liquidity Mining
+## 流動性マイニング
 
-Liquidity mining is a way to earn crypto assets by providing liquidity to a trading pair of Pando Proto. For example, if you provide liquidity to the trading pair of BTC/USDT, you will earn BTC and USDT as rewards. 
+流動性マイニングは、Pando Protoのトレードペアに流動性を提供することで暗号資産を獲得する方法です。例えば、BTC/USDTのトレードペアに流動性を提供すると、BTCとUSDTを報酬として獲得することができます。
 
-The rewards come from the trading fees of the trading pair. They are distributed to liquidity providers in proportion to their contribution to the liquidity pool. The more liquidity you provide, the more transactions occur in the pool, the more rewards you will earn.
-
-Rewards are not distributed by separate transactions. Instead, they will add value to the LP tokens you hold. You can claim your rewards by removing liquidity from the pool.
+報酬は、トレードペアの取引手数料から提供されます。これらの報酬は、流動性プロバイダーの貢献度に応じて流動性プールに分配されます。提供する流動性が増えるほど、プールでの取引が増えるほど、より多くの報酬を獲得することができます。
+報酬は個別のトランザクションによって分配されるわけではありません。代わりに、保有しているLPトークンの価値が増加します。報酬は、プールから流動性を取り除くことによって受け取ることができます。
 
 ::: info
-The liquidity mining may loss because of the impermanent loss. Please read [this section](https://docs.pando.im/manual/trade.html#impermanent-loss) to learn more about impermanent loss.
+流動性マイニングは、一時的な損失の影響を受ける可能性があります。[一時的な損失について](https://docs.pando.im/manual/trade.html#impermanent-loss)詳しく学ぶために、このセクションをお読みください。
 :::
 
-## Senior Practitioner BOX Program
+## シニア実践者BOXプログラム
 
-Senior Practitioner BOX Program is a way to earn BOX token by providing BOX token. It's a private program for senior practitioners of "定投人生" group, which is a group founded by Li Xiaolai. The program only open at thusday (UTC+8) and last for 21 hours. You can deposit and withdraw your BOX token during the open time. 
+シニア実践者BOXプログラムは、BOXトークンを提供することでBOXトークンを獲得する方法です。このプログラムは、李笑来（Li Xiaolai）によって設立された「定投人生」コミュニティの付帯プロジェクトです。
 
-The rewards are distributed to all participants in proportion to their contribution to the pool. Please note that the rewards will not distributed immediately. They will be distributed after the program close at every thusday.
+このプログラムは毎週木曜日（UTC+8）に開催され、21時間オープンしています。参加者は、指定された時間内にBOXトークンを預け入れまたは引き出すことができます。
+
+報酬は、プールへの貢献度に応じてすべての参加者に分配されます。ただし、報酬は即座に分配されるわけではありません。毎週木曜日のプログラム終了後に分配されます。
 
 ::: info
-The program only public for the group members of "定投人生". Please contact the group admin to join the group.
+このプログラムは「定投人生」グループのメンバーのみ参加できます。グループへの参加は、グループ管理者までご連絡ください。
 :::
 
-## Mixin Mining Node
+## Mixinマイニングノード
 
-Mixin Mining Node is a way to earn XIN token by providing XIN token as the support of Mixin Network. 
+Mixinマイニングノードは、MixinネットワークのサポートとしてXINトークンを提供することによってXINトークンを獲得する方法です。
 
 ::: info
-The seat of Mixin Mining Node is limited. You may need to wait in the queue if there is no seat available when you apply for it.
+Mixinマイニングノードの席は限られています。お申し込み時に空席がない場合は、順番待ちとなる場合があります。
 :::
 
 
