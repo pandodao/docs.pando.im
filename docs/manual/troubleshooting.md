@@ -58,3 +58,15 @@ For metamask, pando provides a simple way to do that:
 2. There is a pink "+" button at the swap form. Click it to add the asset contract to MetaMask.
 
 For other wallets that compatible with WalletConnect, please use "[MVM Bridge](https://bridge.mvm.app/)" manage your assets.
+
+## Remaining debt has to be no less than 100 pUSD
+
+When you pay back your debt on Pando Leaf, you may encounter the following error message:
+
+```
+Remaining debt has to be no less than 100 pUSD
+```
+
+It's because the minimum amount of debt should be larger than 100 pUSD.
+
+The solution is simple, just pay back all your debt, or pay back less, to make sure there are more than 100 pUSD debt remaining.

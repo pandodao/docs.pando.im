@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: "ゼロガソリン費用"
-    details: すべての Pando Proto は無料で利用でき、ガソリン代は必要ありません。
+    details: すべての Pando Proto は無料で利用でき、ガス代（Gas fees）ゼロ。
   - title: "光速のような速さ"
     details: すべての取引は数秒で確認され、確認を待つ必要はありません。
   - title: "クロスチェーン"
