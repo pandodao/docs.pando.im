@@ -70,3 +70,24 @@ Mixin 服务器遇到错误
 ```
 
 这是因为最低债务金额应大于 100 pUSD。解决方案很简单，只需偿还所有债务；或者少还一些，以确保剩余的债务超过 100 pUSD。
+
+## “找不到变量：BigInt”
+
+“Can't find variable: BigInt” 错误是由于浏览器对 BigInt 的兼容性导致的。
+
+如果您使用的是 iPhone、iPad，请将您的 iOS 升级到 14.5 或更高版本。如果您使用的是 macOS，请将您的 Safari 升级到 14.1 或更高版本。其他浏览器请升级到最新版本。 以下是支持 BigInt 的最低浏览器版本：
+
+- Chrome 和 WebView Android：67
+- 火狐：68
+- Edge：79
+- Opera：54
+- macOS Safari：14.1
+- iOS 浏览器：14.5
+- Android 版 Chrome：67
+- Android 版 Firefox：68
+
+## Pando 在锤子/坚果手机上显示空白页
+
+对于锤子/坚果手机上已知的网络浏览器兼容性问题，当您尝试在 Mixin Messenger 上使用 Pando bot 时，可能会遇到空白页面。
+
+我们仍在为这个问题寻找解决方案。 在此之前，请尝试在手机上使用Chrome或其他浏览器访问 [https://pando.im](https://pando.im) 来使用Pando。

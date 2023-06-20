@@ -70,3 +70,24 @@ Remaining debt has to be no less than 100 pUSD
 It's because the minimum amount of debt should be larger than 100 pUSD.
 
 The solution is simple, just pay back all your debt, or pay back less, to make sure there are more than 100 pUSD debt remaining.
+
+## "Can't find variable: BigInt"
+
+The error "Can't find variable: BigInt" is caused by the browser's compatibility with BigInt.
+
+If you're using iPhone, iPad, please upgrade your iOS to 14.5 or later. If you're using macOS, please upgrade your Safari to 14.1 or later. For other browsers, please upgrade to the latest version. Here is the minimum version of browsers that support BigInt:
+
+- Chrome and WebView Android: 67
+- Firefox: 68
+- Edge: 79
+- Opera: 54
+- Safari: 14.1
+- iOS Safari: 14.5
+- Chrome for Android: 67
+- Firefox for Android: 68
+
+## Pando show blank page on 锤子/坚果 phones
+
+For known web browser compatibility issues on 锤子/坚果 phones, you may encounter a blank page when you try to use Pando bot on Mixin Messenger.
+
+We're still fetching a solution for this issue. Before that, please try to use Chrome or other browsers on your phone and visit [https://pando.im](https://pando.im) to use Pando.
