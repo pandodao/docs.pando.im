@@ -86,8 +86,16 @@ If you're using iPhone, iPad, please upgrade your iOS to 14.5 or later. If you'r
 - Chrome for Android: 67
 - Firefox for Android: 68
 
-## Pando show blank page on 锤子/坚果 phones
+## Pando shows blank page
 
-For known web browser compatibility issues on 锤子/坚果 phones, you may encounter a blank page when you try to use Pando bot on Mixin Messenger.
+The issue may be caused by 2 reasons:
 
-We're still fetching a solution for this issue. Before that, please try to use Chrome or other browsers on your phone and visit [https://pando.im](https://pando.im) to use Pando.
+1. For known web browser compatibility issues on 锤子/坚果 phones, you may encounter a blank page when you try to use Pando bot on Mixin Messenger. 
+   We're still fetching a solution for this issue. Before that, please try to use Chrome or other browsers on your phone and visit https://app.pando.im to use Pando.
+2. It's caused by corrupted cache. If you're using Mixin Messenger, please follow the instructions to clear the cache: 
+   1. Open Mixin Messenger, click your avatar at the top right of the screen.
+   2. Click the "Settings" button at the top right of the screen.
+   3. Click "Security" -> "Authorizations", search for the "Pando", select it and click "Revoke access".
+   4. Go back to the bot, authorize Pando again.
+
+If you're using other browsers, please try to clear the cache of your browser.

@@ -86,8 +86,16 @@ Mixin 服务器遇到错误
 - Android 版 Chrome：67
 - Android 版 Firefox：68
 
-## Pando 在锤子/坚果手机上显示空白页
+## Pando 显示空白页
 
-对于锤子/坚果手机上已知的网络浏览器兼容性问题，当您尝试在 Mixin Messenger 上使用 Pando bot 时，可能会遇到空白页面。
+该问题可能由 2 个原因引起：
 
-我们仍在为这个问题寻找解决方案。 在此之前，请尝试在手机上使用Chrome或其他浏览器访问 [https://pando.im](https://pando.im) 来使用Pando。
+1. 针对锤子/坚果手机已知的浏览器兼容性问题，当您尝试在 Mixin Messenger 上使用 Pando bot 时，可能会遇到空白页面。
+   我们仍在为这个问题寻找解决方案。 在此之前，请尝试在手机上使用Chrome或其他浏览器，访问 https://app.pando.im 使用 Pando。
+2. 这是由损坏的缓存引起的。 如果您使用的是 Mixin Messenger，请按照说明清除缓存：
+   1. 打开 Mixin Messenger，点击屏幕右上角的头像。
+   2. 单击屏幕右上角的“设置”按钮。
+   3. 点击“安全”->“授权”，搜索“Pando”，选中并点击“撤销访问权限”。
+   4. 回到 bot，再次授权 Pando。
+
+如果您使用的是其他浏览器，请尝试清除浏览器的缓存。
