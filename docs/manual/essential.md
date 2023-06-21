@@ -58,5 +58,5 @@ There are 2 major ways to deposit crypto assets to Mixin Network:
 By default, you don't need gas fee by using Pando Proto. However, there are some senarios that may require gas fee:
 
 1. For some operations on Pando Leaf and Rings, it will cost you 0.00000001 ETH to invoke the transaction action. It could be considered as gas fee charged by Pando Proto.
-2. For the users who connect their wallet with WalletConnect and MetaMask, it will cost some gas fees to all operations on Pando Proto. The gas fee is charged by the MVM(https://mvm.app), not Pando Proto. For realtime gas fee, please refer to the MVM block explorer: https://scan.mvm.dev/
+2. For the users who connect their wallet with WalletConnect and MetaMask, it will cost some ETH as the gas fees to all operations on Pando Proto. The gas fee is charged by the MVM (https://mvm.app), not Pando Proto. For realtime gas fee, please refer to the MVM block explorer: https://scan.mvm.dev/
 

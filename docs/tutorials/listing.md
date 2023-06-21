@@ -2,7 +2,7 @@
 
 ## Add new liquidity pools/pairs(4swap pools)
 
-Technically, because of the decentralized nature of Pando Proto, anyone can add liquidity pools to Pando Proto. Pando's Web Interface also provides a simple way to add new liquidity pools.
+Technically, because of the decentralized nature of Pando Proto, anyone can add liquidity pools (aka. add new listing) to Pando Proto. Pando's Web Interface also provides a simple way to add new liquidity pools.
 
 To add a new liquidity pool/pair, you need to do the following:
 

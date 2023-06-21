@@ -59,4 +59,4 @@ Pando Proto 建立在 Mixin Network（https://mixin.network）之上，因此您
 默认情况下，使用 Pando Proto 不需要 gas 费。 但是，有一些场景可能需要 gas fee：
 
 1. Pando Leaf 和 Rings 上的部分操作，调用动作需要花费 0.00000001 ETH。虽然数量很少，但它可以被认为是 Pando Proto 收取的 gas 费。
-2. 对于将钱包连接到WalletConnect和MetaMask的用户，Pando Proto上 的所有操作都会产生一定的 gas 费用。 gas 费用由 MVM（https://mvm.app）收取，而非 Pando Proto。具体的值请参考 MVM 区块浏览器： https://scan.mvm.dev/
+2. 对于将钱包连接到 WalletConnect 和 MetaMask 的用户，Pando Proto 上的所有操作都需要少量的 ETH 作为 gas 费用。gas 费用由 MVM（https://mvm.app）收取，而非 Pando Proto。具体的 gas 费用取决于当前 MVM 网络的拥堵情况。具体的值请参考 MVM 区块浏览器： https://scan.mvm.dev/
