@@ -2,14 +2,16 @@
 
 ## 添加新的流动池/交易对（4swap流动池）
 
-任何人都可以向 Pando Proto (4swap) 添加流动池（交易对）。要添加新的流动池，您需要执行以下操作：
+从技术上讲，由于 Pando Proto 的去中心化性质，任何人都可以向 Pando Proto 添加流动资金池。 Pando 的 Web 界面还提供了一种添加新流动资金池的简单方法。
 
-1. 确保你要添加的加密货币是 Mixin Network 支持的。 请访问 https://mixin.space/ 查看。
-2. 将一些你想添加到 Pando Proto 的加密货币存入你的 Mixin Messenger 钱包。
-3. 访问 https://governance.pando.im/#/4swap/pool/create 并按照说明创建新的流动池。
+要添加新的流动性池/对，您需要执行以下操作：
 
+1. 确保你要添加的加密货币或代币是 Mixin Network 支持的。 请访问 https://mixin.space/ 查看。
+2. 将一些你想添加到 Pando Proto 的加密货币存入你的余额。 点击“存款”按钮即可。
+3. 访问 https://app.pando.im/swap/pool/create 并按照说明创建新的流动性池。
+  
 ::: info
-1. 您将被要求支付一些 ETH 代币以发行新的 LP Token。
+1. 您将被要求支付一些 ETH 代币来发行新的矿池 LP 代币。该费用不是由 Pando Proto 收取，而是由以太坊网络收取。
 2. 等待 MTG 成员批准新的流动性池可能需要几天时间。
 3. 如果新的流动资金池未获批准，它将退还 ETH 代币。
 ::::
