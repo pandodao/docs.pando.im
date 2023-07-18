@@ -40,6 +40,14 @@ Swap fee is the fee charged for each transaction. The swap fee is 0.3% by defaul
 
 The swap fee is charged to the token you are swapping out.
 
+### Fusion Boost
+
+Fusion Boost Mode is a new feature of Swap of Pando Proto. It allows users to split a large order into multiple small orders and execute them in parallel. This can greatly reduce the slippage and improve the success rate of the transaction.
+
+Fusion Boost Mode is disabled by default. You can enable it by clicking the "Fusion Boost" switch. The web interface will try to remember your choice and automatically enable it next time.
+
+It's possible to get more tokens than you expected when using Fusion Boost Mode. The premium amount will be displayed in the "Boosted Yield" field. Please note that it is not a profit, it is just a possible premium amount for estimation. It may be less than the premium amount, or even a loss if the market price changes too much.
+
 ## Limit Order
 
 Pando Proto's limit order protocol executer is a full unattended process that will monitor the market and execute the order.
