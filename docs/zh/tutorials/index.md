@@ -16,7 +16,7 @@ Pando Proto 的 Web 应用程序可在 https://app.pando.im 获得。
 
 Web 应用程序的目标是为用户提供一个统一的界面来访问所有 Pando 协议和产品。 目前，4swap 协议已集成到 Web 应用程序中，4swap 的旧 Web 应用程序 (https://app.4swap.org) 将被弃用。
 
-Leaf 协议和 Rings 协议未来也会融合到新的 Pando Web 应用程序。
+Leaf 协议和 Rings 协议未来也会融合到新的 Pando Web 应用程序。目前，Leaf 的访问地址为 https://leaf.pando.im ，Rings 的访问地址为 https://rings.pando.im 。
 
 ### Pando 有 iOS 和 Android App 吗？
 
@@ -26,10 +26,10 @@ Leaf 协议和 Rings 协议未来也会融合到新的 Pando Web 应用程序。
 
 Pando 中有 3 个主要协议产品，包括 4swap、Leaf 和 Rings。
 
-- [4swap](https://pando.im/4swap) 是第一个建立在 Mixin Network 上的去中心化交换协议。 实现 AMM模 型，为用户提供流动性挖矿，兼容 Uniswap V2 和 Curve。 4swap 支持“交易”功能，也称为“Swap”。 它还支持“Earn”页面的“流动性挖矿”功能。
+- 4swap: https://pando.im/4swap 是第一个建立在 Mixin Network 上的去中心化交换协议。 实现 AMM模 型，为用户提供流动性挖矿，兼容 Uniswap V2 和 Curve。 4swap 支持“交易”功能，也称为“Swap”。 它还支持“Earn”页面的“流动性挖矿”功能。
   - 目前，4swap 仅作为协议存在，其 Web 应用程序已经整合到了 Pando Proto (https://app.pando.im)
-- [Leaf](https://pando.im/leaf) 是一个基于 Mixin Network 的去中心化铸币协议。 它采用类似于 MakerDAO 的质押机制，发行名为“PUSD”的稳定币。
-- [Rings](https://pando.im/rings) 是一种基于 Mixin Network 的去中心化借贷协议。 实现 Compound V1 利息模型，为用户提供流动性挖矿。 Rings 仅保持最低限度的运行。
+- Leaf: https://pando.im/leaf 是一个基于 Mixin Network 的去中心化铸币协议。 它采用类似于 MakerDAO 的质押机制，发行名为“PUSD”的稳定币。
+- Rings: https://pando.im/rings 是一种基于 Mixin Network 的去中心化借贷协议。 实现 Compound V1 利息模型，为用户提供流动性挖矿。 Rings 仅保持最低限度的运行。
 
 ## Pando 的其他产品
 
