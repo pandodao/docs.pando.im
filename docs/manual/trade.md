@@ -36,7 +36,11 @@ By default, Pando Proto's Web page calculates the best route for current transac
 
 ### Swap Fee
 
-Swap fee is the fee charged for each transaction. The swap fee is 0.3% by default for most of liquidity pools. For curve liquidity pools, the swap fee is 0.04%. At present, the curve liquidity pools are pUSD-USDT(ERC-20), pUSD-USDT(TRC-20), pUSD-USDC, pUSD-DAI, and BTC-wBTC.
+Swap fee is the fee charged for each transaction. The swap fee is 0.3% by default for most of liquidity pools. 
+
+For curve liquidity pools, the swap fee is 0.04%. At present, the curve liquidity pools are pUSD-USDT(ERC-20), pUSD-USDT(TRC-20), pUSD-USDC, pUSD-DAI, and BTC-wBTC.
+
+> According to https://pando.im/news/2023/2023-07-28-a-plan-of-increase-in-pusd-swap-pool-fee-rate/, the swap fee of pUSD-USDT(ERC-20), pUSD-USDT(TRC-20), pUSD-USDC, pUSD-DAI will be increased to 0.1% on 2023-08-10.
 
 The swap fee is charged to the token you are swapping out.
 

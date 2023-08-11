@@ -16,11 +16,13 @@ Pando Proto 的 Web 应用程序可在 https://app.pando.im 获得。
 
 Web 应用程序的目标是为用户提供一个统一的界面来访问所有 Pando 协议和产品。 目前，4swap 协议已集成到 Web 应用程序中，4swap 的旧 Web 应用程序 (https://app.4swap.org) 将被弃用。
 
-Leaf 协议和 Rings 协议未来也会融合到新的 Pando Web 应用程序。目前，Leaf 的访问地址为 https://leaf.pando.im ，Rings 的访问地址为 https://rings.pando.im 。
+Leaf 协议和 Rings 协议未来也会融合到新的 Pando Web 应用程序。目前，Leaf 的访问地址为 https://leaf.pando.im，其 ID 是 ，Rings 的访问地址为 https://rings.pando.im 。
 
 ### Pando 有 iOS 和 Android App 吗？
 
 目前，Pando 没有 iOS 和 Android App。 但是，您可以使用手机浏览器，打开 Pando Proto 的 Web 应用程序 (https://app.pando.im) 使用。也可以在 Mixin Messenger 中使用 Pando Proto，打开 Mixin Messenger，搜索 “7000105018”，即可使用 Pando Proto 在 Mixin Messenger 中的机器人。
+
+Leaf 的 ID 为 7000103924，Rings 的 ID 为 7000104159。
 
 ## Pando 的主要协议和产品
 

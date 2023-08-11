@@ -38,6 +38,8 @@ Pando Proto 使用 AMM 为用户提供兑换服务。
 
 交易手续费是每笔交易收取的费用。 大多数流动资金池的交易手续费默认为 0.3%。 对于 Curve 类型流动性池，交易手续费为 0.04%。 目前 Curve 类型流动性池有 pUSD-USDT(ERC-20)、pUSD-USDT(TRC-20)、pUSD-USDC、pUSD-DAI、BTC-wBTC。
 
+> 根据 https://pando.im/news/2023/2023-07-28-a-plan-of-increase-in-pusd-swap-pool-fee-rate/，pUSD-USDT的互换费用( ERC-20)、pUSD-USDT(TRC-20)、pUSD-USDC、pUSD-DAI将于2023年8月10日上调至0.1%。
+
 交易手续费从您要换出的代币中扣除。
 
 ### 增强模式

@@ -34,6 +34,9 @@ Pando Protoは将来的にリミットオーダースワップをサポートし
 ### スワップ手数料
 
 スワップ手数料は、各取引に課金される手数料です。ほとんどの流動性プールのデフォルトのスワップ手数料は0.3%です。Curveの流動性プールでは、スワップ手数料は0.04%です。現在、Curveの流動性プールはpUSD-USDT（ERC-20）、pUSD-USDT（TRC-20）、pUSD-USDC、pUSD-DAI、BTC-wBTCです。
+
+> https://pando.im/news/2023/2023-07-28-a-plan-of-increase-in-pusd-swap-pool-fee-rate/ によると、pUSD-USDT(ERC-20)、pUSD-USDT(TRC-20)、pUSD-USDC、pUSD-DAIのスワップ手数料は、2023年8月10日に0.1%に引き上げられます。
+
 スワップ手数料は、スワップするトークンに課金されます。
 
 ### ブーストモード
