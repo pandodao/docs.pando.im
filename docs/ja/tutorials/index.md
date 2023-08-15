@@ -18,6 +18,9 @@ Webアプリケーションの目的は、ユーザーがすべてのPandoプロ
 
 LeafプロトコルとRingsプロトコルは、将来的に統合される予定です。
 
+### iOS および Android アプリはありますか?
+
+現在、Pando には iOS および Android アプリがありません。 ただし、モバイル ブラウザを使用して Pando Proto の Web アプリケーション (https://app.pando.im) にアクセスすることはできます。 Mixin Messenger で Pando Proto を使用し、Mixin Messenger を開いて Mixin ID「7000105018」を検索して、Mixin Messenger で Pando Proto のボットを使用することもできます。
 
 ## Pandoの主要なプロトコル
 

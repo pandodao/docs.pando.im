@@ -20,7 +20,7 @@ Leaf protocol and Rings protocol will be integrated in the future.
 
 ### Is there an iOS and Android app?
 
-Currently, Pando does not have iOS and Android apps. However, you can visit Pando Proto's web application (https://app.pando.im) using your mobile browser. You can also use Pando Proto in Mixin Messenger, open Mixin Messenger, search for "7000105018", to use Pando Proto's bot in Mixin Messenger.
+Currently, Pando does not have iOS and Android apps. However, you can visit Pando Proto's web application (https://app.pando.im) using your mobile browser. You can also use Pando Proto in Mixin Messenger, open Mixin Messenger, search for Mixin ID "7000105018", to use Pando Proto's bot in Mixin Messenger.
 
 ## The Majorities of Pando Protocols
 

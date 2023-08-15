@@ -20,7 +20,7 @@ Leaf 协议和 Rings 协议未来也会融合到新的 Pando Web 应用程序。
 
 ### Pando 有 iOS 和 Android App 吗？
 
-目前，Pando 没有 iOS 和 Android App。 但是，您可以使用手机浏览器，打开 Pando Proto 的 Web 应用程序 (https://app.pando.im) 使用。也可以在 Mixin Messenger 中使用 Pando Proto，打开 Mixin Messenger，搜索 “7000105018”，即可使用 Pando Proto 在 Mixin Messenger 中的机器人。
+目前，Pando 没有 iOS 和 Android App。 但是，您可以使用手机浏览器，打开 Pando Proto 的 Web 应用程序 (https://app.pando.im) 使用。也可以在 Mixin Messenger 中使用 Pando Proto，打开 Mixin Messenger，搜索 Mixin ID “7000105018”，即可使用 Pando Proto 在 Mixin Messenger 中的机器人。
 
 Leaf 的 ID 为 7000103924，Rings 的 ID 为 7000104159。
 
