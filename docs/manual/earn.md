@@ -18,6 +18,16 @@ Rewards are not distributed by separate transactions. Instead, they will add val
 The liquidity mining may loss because of the impermanent loss. Please read [this section](https://docs.pando.im/manual/trade.html#impermanent-loss) to learn more about impermanent loss.
 :::
 
+### Liquidity Mining Profit Rate
+
+Each liquidity pool has two indicators to describe the rate of return of this pool, namely `pUSD AROR` and `Base AROR`.
+
+in which,
+
+- `pUSD AROR` refers to the 30-day approximate annualized rate of return that converts profit and loss into pUSD in the liquidity pool. It can be roughly understood as the approximate annualized rate of return for 30 days of the fiat currency with the US dollar as the quote currency.
+- `Base AROR` refers to the 30-day approximate annualized rate of return of the two basic tokens in the liquidity pool by converting the profit and loss into the liquidity pool. It can be roughly understood as converting the income into the currency-based 30-day approximate annualized rate of return of coin in the liquidity pool.
+
+
 ## Senior Practitioner BOX Program
 
 Senior Practitioner BOX Program is a way to earn BOX token by providing BOX token. It's a private program for senior practitioners of "定投人生" group, which is a group founded by Li Xiaolai. The program only open at thusday (UTC+8) and last for 21 hours. You can deposit and withdraw your BOX token during the open time. 

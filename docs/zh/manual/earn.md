@@ -2,9 +2,9 @@
 outline: deep
 ---
 
-# 赚币广场
+# 赚币与理财
 
-Pando Proto 为用户提供了一个 Earn Plaze 来赚取加密资产。 Earn plaze 基本上是一个索引网页，列出了所有可用的 earn booths。 部分展位由 Pando Proto 提供，部分由第三方开发商提供。 请注意，Pando Proto 不保证第三方展位的安全。
+Pando Proto 为用户提供了一个 Pando Earn 来赚取加密资产。 Earn 基本上是一个索引网页，列出了所有可用的 earn booths。 部分展位由 Pando Proto 提供，部分由第三方开发商提供。
 
 ## 流动性挖矿
 
@@ -17,6 +17,16 @@ Pando Proto 为用户提供了一个 Earn Plaze 来赚取加密资产。 Earn pl
 ::: info
 流动性挖矿可能会因为无常损失而损失。 请阅读[本节](https://docs.pando.im/manual/trade.html#impermanent-loss)以了解有关无常损失的更多信息。
 ::::
+
+### 流动性挖矿收益率
+
+每个流动池有两个指标来描述这个池子的收益率，分别是 `pUSD AROR` 和 `Base AROR`。
+
+其中，
+
+- `pUSD AROR` 是指在流动池中，把盈亏换算成 pUSD 的 30 天近似年化收益率。可以近似理解成，以美元为本位币的法币本位 30 天近似年化收益率。
+- `Base AROR` 是指在流动池中，把盈亏换算成流动池中的两种基础代币的 30 天近似年化收益率。可以近似理解成，把收益都换算成流动池中任一代币的币本位 30 天近似年化收益率。
+
 
 ## 资深践行理财计划
 
