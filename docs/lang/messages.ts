@@ -59,7 +59,7 @@ export const messages = {
     "mint": "pUSDを鋳造する",
     "cookbook": "クックブック",
     "references": "リファレンス",
-    "essential": "基本な概念",
+    "essential": "基本の概念",
     "trade_and_swap": "取引とスワップ",
     "mint_and_pusd": "pUSDを鋳造する",
     "earn_crypto": "暗号通貨を稼ぐ",
