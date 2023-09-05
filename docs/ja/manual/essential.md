@@ -10,6 +10,19 @@ Pandoでは、複数のチームが「Trusted Group」として選ばれ、「�
 
 MTGについて詳しくは[こちら](https://developers.mixin.one/docs/mainnet/mtg/overview)をご覧ください。
 
+### Pando's MTG Members
+
+Pando is built with Mixin Trusted Group, which is a multisig-based framework powered by Mixin Network. At present, the servicing genesis nodes are as follows.
+
+- [Pando Dev](https://pando.im): The core development team of Pando.
+- [Mixin](https://mixin.one): The Mixin Network team. The core develop team of Mixin Network
+- [Big.ONE](https://big.one): A trading platform provides users with the secure and trusteeship services
+- [BOX Group](https://b.watch): BOX investment community
+- Exin: A famous trading platform in Mixin Ecosystem
+- Cedric Fung: One major sponsor of Pando, individual investor and developer
+- [Rum System](https://rumsystem.net/): A P2P application infrastructure to offer the internet alternatives
+
+
 ## プライスオラクル
 
 各取引ペアのオラクル価格は、以下の目的で使用されます：

@@ -14,6 +14,18 @@ In Pando, several teams will be selected and arranged as the "Trusted Group", be
 
 Learn more about MTG [here](https://developers.mixin.one/docs/mainnet/mtg/overview).
 
+### Pando's MTG Members
+
+Pando is built with Mixin Trusted Group, which is a multisig-based framework powered by Mixin Network. At present, the servicing genesis nodes are as follows.
+
+- [Pando Dev](https://pando.im): The core development team of Pando.
+- [Mixin](https://mixin.one): The Mixin Network team. The core develop team of Mixin Network
+- [Big.ONE](https://big.one): A trading platform provides users with the secure and trusteeship services
+- [BOX Group](https://b.watch): BOX investment community
+- Exin: A famous trading platform in Mixin Ecosystem
+- Cedric Fung: One major sponsor of Pando, individual investor and developer
+- [Rum System](https://rumsystem.net/): A P2P application infrastructure to offer the internet alternatives
+
 ## Price Oracles
 
 The Oracle price for each trading pair is used for the following:
