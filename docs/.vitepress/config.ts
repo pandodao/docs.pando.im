@@ -53,6 +53,7 @@ const genI18nSidebar = () => {
           { text: t(lang, 'earn_crypto'), link: `${prefix}/manual/earn` },
           { text: t(lang, 'claim_free_coin'), link: `${prefix}/manual/catkin` },
           { text: t(lang, 'lend_and_borrow'), link: `${prefix}/manual/rings` },
+          { text: t(lang, 'bridge'), link: `${prefix}/manual/bridge` },
         ]
       },
       {

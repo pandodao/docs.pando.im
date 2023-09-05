@@ -23,6 +23,7 @@ export const messages = {
     "support": "Support",
     "community": "Community",
     "listing": "Listing",
+    "bridge": "Bridge",
   },
   "zh": {
     "home": "首页",
@@ -48,6 +49,7 @@ export const messages = {
     "support": "支持",
     "community": "社区",
     "listing": "上币申请",
+    "bridge": "跨链桥",
   },
   "ja": {
     "home": "ホーム",
@@ -73,6 +75,7 @@ export const messages = {
     "support": "サポート",
     "community": "コミュニティ",
     "listing": "上場申請",
+    "bridge": "ブリッジ",
   }
 }
 
