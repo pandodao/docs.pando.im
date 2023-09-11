@@ -83,7 +83,7 @@ Mixin 服务器遇到错误
 
 如果您使用的是 iPhone、iPad，请将您的 iOS 升级到 14.5 或更高版本。如果您使用的是 macOS，请将您的 Safari 升级到 14.1 或更高版本。其他浏览器请升级到最新版本。 以下是支持 BigInt 的最低浏览器版本：
 
-- Chrome 和 WebView Android：67
+- Chrome 和 WebView Android：87
 - 火狐：68
 - Edge：79
 - Opera：54
@@ -94,11 +94,13 @@ Mixin 服务器遇到错误
 
 ## Pando 显示空白页
 
-该问题可能由 2 个原因引起：
+该问题可能由 3 个原因引起：
 
-1. 针对锤子/坚果手机已知的浏览器兼容性问题，当您尝试在 Mixin Messenger 上使用 Pando bot 时，可能会遇到空白页面。
+1. 手机系统版本太低。请尝试升级您的手机系统，对于 iOS 用户，请升级到 14.1 或更高版本，对于 Android 用户，请升级到 10.0 或更高版本（确保 Chrome 内核版本在 78 以上）。
+   如果您无法确定您的版本，可以访问 https://app.pando.im/tools.html 查看您的浏览器信息。
+2. 针对锤子/坚果手机已知的浏览器兼容性问题，当您尝试在 Mixin Messenger 上使用 Pando bot 时，可能会遇到空白页面。
    我们仍在为这个问题寻找解决方案。 在此之前，请尝试在手机上使用Chrome或其他浏览器，访问 https://app.pando.im 使用 Pando。
-2. 这是由损坏的缓存引起的。 如果您使用的是 Mixin Messenger，请按照说明清除缓存：
+3. 这是由损坏的缓存引起的。 如果您使用的是 Mixin Messenger，请按照说明清除缓存：
    1. 打开 Mixin Messenger，点击屏幕右上角的头像。
    2. 单击屏幕右上角的“设置”按钮。
    3. 点击“安全”->“授权”，搜索“Pando”，选中并点击“撤销访问权限”。

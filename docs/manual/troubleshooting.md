@@ -77,7 +77,7 @@ The error "Can't find variable: BigInt" is caused by the browser's compatibility
 
 If you're using iPhone, iPad, please upgrade your iOS to 14.5 or later. If you're using macOS, please upgrade your Safari to 14.1 or later. For other browsers, please upgrade to the latest version. Here is the minimum version of browsers that support BigInt:
 
-- Chrome and WebView Android: 67
+- Chrome and WebView Android: 87
 - Firefox: 68
 - Edge: 79
 - Opera: 54
@@ -88,11 +88,13 @@ If you're using iPhone, iPad, please upgrade your iOS to 14.5 or later. If you'r
 
 ## Pando shows blank page
 
-The issue may be caused by 2 reasons:
+The issue may be caused by 3 reasons:
 
-1. For known web browser compatibility issues on 锤子/坚果 phones, you may encounter a blank page when you try to use Pando bot on Mixin Messenger. 
+1. The system version of your phone is too low. Please try to upgrade your phone's system. For iOS users, please upgrade to 14.1 or later, for Android users, please upgrade to 10.0 or later (make sure the Chrome kernel version is above 78).
+   If you cannot determine your version, you can visit https://app.pando.im/tools.html to check your browser information.
+2. For known web browser compatibility issues on 锤子/坚果 phones, you may encounter a blank page when you try to use Pando bot on Mixin Messenger. 
    We're still fetching a solution for this issue. Before that, please try to use Chrome or other browsers on your phone and visit https://app.pando.im to use Pando.
-2. It's caused by corrupted cache. If you're using Mixin Messenger, please follow the instructions to clear the cache: 
+3. It's caused by corrupted cache. If you're using Mixin Messenger, please follow the instructions to clear the cache: 
    1. Open Mixin Messenger, click your avatar at the top right of the screen.
    2. Click the "Settings" button at the top right of the screen.
    3. Click "Security" -> "Authorizations", search for the "Pando", select it and click "Revoke access".
