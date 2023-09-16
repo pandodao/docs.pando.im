@@ -78,7 +78,7 @@ Adding liquidity is not without risk, as you may be exposed to impermanent loss.
 
 Impermanent loss is a term used to describe the loss that liquidity providers may experience when they deposit their funds into a liquidity pool. This occurs when the price of the two assets in the pool changes relative to each other.
 
-You may want to read [this post](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22) to learn more about impermanent loss.
+You may want to read [this post](https://medium.com/bancor/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22) to learn more about impermanent loss.
 
 ### Liquidity Provider Token (LP Token)
 
