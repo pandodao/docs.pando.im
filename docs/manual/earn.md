@@ -20,12 +20,12 @@ The liquidity mining may loss because of the impermanent loss. Please read [this
 
 ### Liquidity Mining Profit Rate
 
-Each liquidity pool has two indicators to describe the rate of return of this pool, namely `pUSD AROR` and `Base AROR`.
+Each liquidity pool has two indicators to describe the rate of return of this pool, namely `pUSD APY` and `Base APY`.
 
 in which,
 
-- `pUSD AROR` refers to the 30-day approximate annualized rate of return that converts profit and loss into pUSD in the liquidity pool. It can be roughly understood as the approximate annualized rate of return for 30 days of the fiat currency with the US dollar as the quote currency.
-- `Base AROR` refers to the 30-day approximate annualized rate of return of the two basic tokens in the liquidity pool by converting the profit and loss into the liquidity pool. It can be roughly understood as converting the income into the currency-based 30-day approximate annualized rate of return of coin in the liquidity pool.
+- `pUSD APY` refers to the 30-day approximate annualized rate of return that converts profit and loss into pUSD in the liquidity pool. It can be roughly understood as the approximate annualized rate of return for 30 days of the fiat currency with the US dollar as the quote currency.
+- `Base APY` refers to the 30-day approximate annualized rate of return of the two basic tokens in the liquidity pool by converting the profit and loss into the liquidity pool. It can be roughly understood as converting the income into the currency-based 30-day approximate annualized rate of return of coin in the liquidity pool.
 
 
 ## Senior Practitioner BOX Program

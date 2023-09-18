@@ -58,7 +58,14 @@ Mixin Wealth 作为一个去中心化的基金市场，提供安全的基金募�
 
 Mixin Wealth 基金市场不为基金的安全性与可靠性背书，对加密货币本位的基金提供去中心化的 Mixin Safe 托管服务，并透明公开所有持仓地址。对于股票 ETF 等 RWA 的传统金融资产，Mixin Wealth 虽无法提供任何的担保，但所有资金都处于合法合规的监管之下。
 
+**申购地址**
+
+请在 Mixin 访问 @7000105166 进行申购。或者，访问 https://wealth.mixin.one/ 进行申购。
+
+注意，目前在 @7000105166 只能申购，暂时不能卖出和赎回。需要卖出需要去二级市场。
+
 **二级市场买卖**
 
-目前在这里可以买卖： https://app.pando.im/swap?base=31d2ea9c-95eb-3355-b65b-ba096853bc18&quote=5c392265-1e05-3520-a25b-2fe9e36510d7
+目前在 Pando Swap 二级市场可以买入和卖出： https://app.pando.im/swap?base=31d2ea9c-95eb-3355-b65b-ba096853bc18&quote=5c392265-1e05-3520-a25b-2fe9e36510d7
 
+买卖时，请留意价格影响，目前不宜大额买卖。
