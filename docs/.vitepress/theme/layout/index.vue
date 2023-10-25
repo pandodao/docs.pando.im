@@ -8,7 +8,6 @@ const { Layout } = DefaultTheme
 <template>
   <Layout>
     <template #doc-after>
-      <Comments />
     </template>
   </Layout>
 </template>
