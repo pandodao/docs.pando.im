@@ -42,7 +42,7 @@ Pro Mode is enabled by default. On desktop, you can switch to Simple Mode by cli
 
 In both Simple Mode and Pro Mode, you can click the "Advanced Settings" icon to open the advanced settings panel.
 
-On the settings panel, you can set [slippage tolerance](../manual/trade.md#slippage-tolerance).
+On the settings panel, you can set slippage tolerance.
 
 ## How to place limit orders
 
