@@ -15,57 +15,31 @@ const genNav = () => {
   return ret;
 }
 
-const genI18nSidebar = () => {
+const genSidebar = () => {
   const ret = {};
-  for (const lang of ['en', 'zh', 'ja']) {
-    const prefix = lang === 'en' ? '' : '/' + lang;
-    ret[`${prefix}/tutorials/`] = [
-      {
-        text: t(lang, 'tutorial'),
-        items: [
-          { text: t(lang, 'connect_wallet'), link: `${prefix}/tutorials/connect` },
-          { text: t(lang, 'trading'), link: `${prefix}/tutorials/trading` },
-          { text: t(lang, 'liquidity_mining'), link: `${prefix}/tutorials/liquidity` },
-          { text: t(lang, 'mint'), link: `${prefix}/tutorials/mint` }
-        ]
-      },
-      {
-        text: t(lang, 'other_topics'),
-        items: [
-          { text: t(lang, 'listing'), link: `${prefix}/tutorials/listing` },
-          { text: t(lang, 'chat_mode'), link: `${prefix}/tutorials/chat-mode` },
-        ]
-      },
-      {
-        text: t(lang, 'community'),
-        items: [
-          { text: t(lang, 'support'), link: `${prefix}/tutorials/support` },
-        ]
-      }
-    ]
-    ret[`${prefix}/manual/`] = [
-      {
-        text: t(lang, 'references'),
-        items: [
-          { text: t(lang, 'essential'), link: `${prefix}/manual/essential` },
-          { text: t(lang, 'trade_and_swap'), link: `${prefix}/manual/trade` },
-          { text: t(lang, 'mint_and_pusd'), link: `${prefix}/manual/mint` },
-          { text: t(lang, 'earn_crypto'), link: `${prefix}/manual/earn` },
-          { text: t(lang, 'claim_free_coin'), link: `${prefix}/manual/catkin` },
-          { text: t(lang, 'lend_and_borrow'), link: `${prefix}/manual/rings` },
-          { text: t(lang, 'bridge'), link: `${prefix}/manual/bridge` },
-        ]
-      },
-      {
-        text: t(lang, 'other_topics'),
-        items: [
-          { text: t(lang, 'faq'), link: `${prefix}/manual/faq` },
-          { text: t(lang, 'troubleshooting'), link: `${prefix}/manual/troubleshooting` },
-          { text: t(lang, 'audit_report'), link: `${prefix}/manual/audit-report` },
-        ]
-      },
-    ]
-  }
+  ret[`/tutorials/`] = [
+    {
+      text: '教程',
+      items: [
+        { text: '连接钱包', link: `/tutorials/connect` },
+      ]
+    }
+  ]
+  ret[`/manual/`] = [
+    {
+      text: '参考手册',
+      items: [
+        { text: '核心概念', link: `/manual/essential` },
+      ]
+    },
+    {
+      text: '其他',
+      items: [
+        { text: 'FAQ', link: `/manual/faq` },
+        { text: '疑难问题', link: `/manual/troubleshooting` },
+      ]
+    },
+  ]
   return ret;
 }
 
@@ -76,20 +50,6 @@ export default defineConfig({
   description: "The official documentation for Pando Proto",
   appearance: false,
 
-  locales: {
-    root: {
-      label: 'English',
-      lang: 'en'
-    },
-    zh: {
-      label: '简体中文',
-      lang: 'zh',
-    },
-    ja: {
-      label: '日本語',
-      lang: 'ja',
-    }
-  },
   themeConfig: {
     logo: { light: '/logo-with-text.svg', dark: 'logo-with-text-dark.svg', alt: 'Pando Proto' },
     siteTitle: false,
@@ -101,7 +61,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: genNav(),
 
-    sidebar: genI18nSidebar(),
+    sidebar: genSidebar(),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/pandodao/docs.pando.im' }
