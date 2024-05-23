@@ -23,6 +23,9 @@ const genSidebar = () => {
       items: [
         { text: 'Pando PwA 安装指南', link: `/tutorials/pandopwa` },
         { text: '新版 Bee Holdings 使用指南', link: `/tutorials/newbeeholdings` },
+        { text: '偿还旧主网 Pando Leaf pUSD 贷款操作指南', link: `/tutorials/leafpusdloanrepayment` },
+        { text: 'Pando 定投计划操作指南', link: `/tutorials/automaticinvestmentplan` },
+        { text: 'Pando 定投功能常见问题', link: `/tutorials/autoinvestfaq` },
       ]
     }
   ]
