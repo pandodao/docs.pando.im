@@ -1,37 +1,41 @@
-# Tutorials
+# 教程
 
-## What is Pando?
+## Pando 是什么？
 
-Pando is a decentrialized financial network built with [Mixin Trusted Group](https://docs.pando.im/docs/security/mtg), including a series of open financial protocols.
+Pando 是一个由 [Mixin 受信任群组](https://docs.pando.im/docs/security/mtg)构建的去中心化金融网络，包括一系列开放的金融协议。
 
-Based on the mechanism of trusted network, Pando combines most common decentralized financial applications into one product to serve users and is constantly evolving to provide more comprehensive financial services.
+基于受信任网络的机制，Pando 将常见的去中心化金融应用程序整合到一个产品中为用户服务，并不断发展，提供更全面的金融服务。
 
-## Where to access Pando?
+## 如何访问 Pando？
 
-Pando Proto's web application is available at https://app.pando.im.
+Pando Proto 的网页应用程序可在 https://app.pando.im 上访问。
 
-The goal of the web application is to provide a unified interface for users to access all Pando protocols and products. Right now, 4swap protocol has been integrated into the web application, and the 4swap's legacy web application (https://app.4swap.org) will be deprecated.
+页应用程序的目标是为用户提供统一的界面，以访问所有 Pando 协议和产品。目前，4swap 协议已经集成到网页应用程序中，而 4swap 的传统网页应用程序 (https://app.4swap.org) 将被弃用。
 
-Leaf protocol and Rings protocol will be integrated in the future.
+### Pando 是否有 iOS 和 Android app？
 
-### Is there an iOS and Android app?
+Pando 没有 app，但是通过 PwA （渐进式webApp）提供了与 app 几乎相同的体验。Pando PwA 可以通过官网 (https://app.pando.im) 下载，点击 [此处](https://docs.pando.im/tutorials/pandopwa.html) 查看 Pando PwA 安装教程。
 
-Currently, Pando does not have iOS and Android apps. However, you can visit Pando Proto's web application (https://app.pando.im) using your mobile browser. You can also use Pando Proto in Mixin Messenger, open Mixin Messenger, search for Mixin ID "7000105018", to use Pando Proto's bot in Mixin Messenger.
+除此之外，您可以使用手机浏览器访问 Pando Proto 的网页应用程序 (https://app.pando.im)。您还可以在 Mixin Messenger 中使用 Pando Proto，在 Mixin Messenger 中打开，搜索 Mixin ID "7000105018"，即可使用 Pando Proto 的机器人。
 
-## The Majorities of Pando Protocols
+## Pando 主要协议
 
-There are 3 major protocols in Pando, including 4swap, Leaf and Rings.
+Pando 中有三个主要的协议，包括 4swap、Leaf 和 Rings。
 
-- [4swap](https://pando.im/4swap) is the first decentralized swapping protocol built on Mixin Network. It implements the AMM model and provides liquidity mining for users, which is compatible with Uniswap V2 and Curve. 4swap supports the "trade" function, also known as "swap". It also supports the "Liquidity Mining" function at "Earn" page.
-  - Currently, 4swap only exists as a protocol, and its web application has been integrated into Pando Proto (https://app.pando.im)
-- [Leaf](https://pando.im/leaf) is a decentralized minting protocol built on Mixin Network. It uses the pledge mechanism that similar to MakerDAO and issues stablecoins called "PUSD".
-- [Rings](https://pando.im/rings) is a decentralized lending protocol built on Mixin Network. It implements compound V1 interest model and provides liquidity mining for users. Rings is not in development anymore and is keeping in minimal running.
+- [4swap](https://pando.im/4swap) 是第一个建立在 Mixin Network 上的去中心化兑换协议。它使用了 AMM 模型，使用 Uniswap V2 和 Curve 算法。4swap 支持“交易”功能，也称为“兑换”。它还支持“流动性挖矿”功能，位于“赚币”页面。
 
-## Other Pando Protocols/Products
+  - 目前，4swap 仅作为一个协议存在，其网页应用程序已经集成到 Pando Proto 中 (https://app.pando.im)
 
-In addition to the three major protocols, Pando has a few other products and protocols, including:
+- [Leaf](https://pando.im/leaf) 是建立在 Mixin Network 上的去中心化铸币协议。它使用类似于 MakerDAO 的质押机制，并发行名为“pUSD”的稳定币。
 
-- [Fennec](https://pando.im/wallet): An open source browser extension wallet based on Mixin Network, supporting Chrome and Firefox browsers.
-- [Talkee](https://pando.im/talkee): A Web3 comment and chat protocol, in addition to basic comment and chat functions, it also supports likes, rewards, and airdrops.
-- [Catkin](https://pando.im/catkin): A protocol for earning cryptocurrency for free. Users can receive cryptocurrency for free on Catkin, or earn cryptocurrency by completing tasks.
+- [Rings](https://pando.im/rings) 是建立在 Mixin Network 上的去中心化借贷协议。它实现了 Compound V1 利息模型，并为用户提供流动性挖矿。Rings 已经不再开发，并保持最低程度的运行。
+
+## 其他 Pando 协议及产品
+
+除了三个主要协议之外，Pando 还有一些其他产品和协议，包括：
+
+- [定投](https://app.pando.im/earn/auto-invest):Pando 提供的定投产品，支持用多种稳定币同时定投多种数字货币。
+- [Bee Holdings](https://app.pando.im/earn/bhold/2): Pando 提供的基金产品，每一份额的 Bee Holdings 基金的组成当前 36.67% 为 sBTC-USDT 代币，31.44% 为 sBTC-ETH 代币，31.89% 为 sETH-USDT。
+[Fennec](https://pando.im/wallet): 一款建于 Mixin Network 上的开源浏览器钱包，支持 Chrome 和 Firefox 浏览器。
+- [Catkin](https://pando.im/catkin): 一种用于免费赚取加密货币的协议。用户可以在 Catkin 上免费获得加密货币，或者通过完成任务来赚取加密货币。
 
