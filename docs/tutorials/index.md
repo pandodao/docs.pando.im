@@ -30,7 +30,7 @@ Pando 中有三个主要的协议，包括 4swap、Leaf 和 Rings。
 
 - [Rings](https://pando.im/rings) 是建立在 Mixin Network 上的去中心化借贷协议。它实现了 Compound V1 利息模型，并为用户提供流动性挖矿。Rings 已经不再开发，并保持最低程度的运行。
 
-## 其他 Pando 协议及产品
+## 其他的 Pando 协议及产品
 
 除了三个主要协议之外，Pando 还有一些其他产品和协议，包括：
 
