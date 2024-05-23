@@ -30,4 +30,3 @@ Pando 没有 app，但是通过 PwA （渐进式webApp）提供了与 app 几乎
 - [Fennec](https://pando.im/wallet)：一款建于 Mixin Network 上的开源浏览器钱包，支持 Chrome 和 Firefox 浏览器。
 
 
-
