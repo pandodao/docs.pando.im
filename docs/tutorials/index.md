@@ -34,8 +34,8 @@ Pando 中有三个主要的协议，包括 4swap、Leaf 和 Rings。
 
 除了三个主要协议之外，Pando 还有一些其他产品和协议，包括：
 
-- [定投](https://app.pando.im/earn/auto-invest):Pando 提供的定投产品，支持用多种稳定币同时定投多种数字货币。
-- [Bee Holdings](https://app.pando.im/earn/bhold/2): Pando 提供的基金产品，每一份额的 Bee Holdings 基金的组成当前 36.67% 为 sBTC-USDT 代币，31.44% 为 sBTC-ETH 代币，31.89% 为 sETH-USDT。
-[Fennec](https://pando.im/wallet): 一款建于 Mixin Network 上的开源浏览器钱包，支持 Chrome 和 Firefox 浏览器。
-- [Catkin](https://pando.im/catkin): 一种用于免费赚取加密货币的协议。用户可以在 Catkin 上免费获得加密货币，或者通过完成任务来赚取加密货币。
+- [定投](https://app.pando.im/earn/auto-invest)：Pando 提供的定投产品，支持用多种稳定币同时定投多种数字货币。
+- [Bee Holdings](https://app.pando.im/earn/bhold/2)：Pando 提供的基金产品，每一份额的 Bee Holdings 基金的组成当前 36.67% 为 sBTC-USDT 代币，31.44% 为 sBTC-ETH 代币，31.89% 为 sETH-USDT。
+- [Fennec](https://pando.im/wallet)：一款建于 Mixin Network 上的开源浏览器钱包，支持 Chrome 和 Firefox 浏览器。
+- [Catkin](https://pando.im/catkin)：一种用于免费赚取加密货币的协议。用户可以在 Catkin 上免费获得加密货币，或者通过完成任务来赚取加密货币。
 
