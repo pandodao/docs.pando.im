@@ -6,10 +6,6 @@ Pando is a decentrialized financial network built with [Mixin Trusted Group](htt
 
 Based on the mechanism of trusted network, Pando combines most common decentralized financial applications into one product to serve users and is constantly evolving to provide more comprehensive financial services.
 
-::: tip
-Just want to try it out? Skip to the [Connect Wallet](./connect.md).
-:::
-
 ## Where to access Pando?
 
 Pando Proto's web application is available at https://app.pando.im.
