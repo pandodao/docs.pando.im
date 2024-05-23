@@ -35,6 +35,8 @@ const genSidebar = () => {
     {
       text: '其他',
       items: [
+        { text: 'Pando PwA 安装指南', link: `/manual/pandopwa` },
+        { text: '新版 Bee Holdings 使用指南', link: `/manual/newbeeholdings` },
         { text: 'FAQ', link: `/manual/faq` },
         { text: '疑难问题', link: `/manual/troubleshooting` },
       ]

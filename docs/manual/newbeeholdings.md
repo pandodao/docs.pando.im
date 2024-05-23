@@ -8,7 +8,6 @@ Bee.holdings 现已整合进入 Pando 机器人（Mixin ID：7000105018），买
 
 进入 Pando 机器人 (@7000105018) ，切换到 「赚币」页面，在「广场」页面点击 「Bee」列表，即可找到 Bee.holdings 产品列表。
 
-(pic: bee-enter)
 ![bee-entry](./assets/bee-entry.webp)
 
 名为 “Bee Holdings”的基金可以进行购买和赎回；名为 ”Bee Holdings (旧版)“ 的基金为 Mixin 攻击事件发生后从旧主网迁移到 Safe 新主网的基金产品，当前无法再买入，仅支持赎回。
