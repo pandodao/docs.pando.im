@@ -26,6 +26,7 @@ const genSidebar = () => {
         { text: '偿还旧主网 Pando Leaf pUSD 贷款操作指南', link: `/tutorials/leafpusdloanrepayment` },
         { text: 'Pando 定投计划操作指南', link: `/tutorials/automaticinvestmentplan` },
         { text: 'Pando 定投功能常见问题', link: `/tutorials/autoinvestfaq` },
+        { text: 'CoWallet 多签钱包使用指南', link: `/tutorials/cowallet` },
       ]
     }
   ]
