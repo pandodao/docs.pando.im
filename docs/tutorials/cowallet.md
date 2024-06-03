@@ -62,7 +62,7 @@
 
 签名数量要求满足后，对应的收款人就可以在 Mixin 钱包中收到转账了。
 
-![cowallet cosign](./assets/cowallet-cosign.webp)
+![cowallet cosign](./assets/cowallet-cosignnew.webp)
 
 ## 如何进行多签钱包到 MIX 多签地址的转账
 
