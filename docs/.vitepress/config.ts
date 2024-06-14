@@ -27,6 +27,8 @@ const genSidebar = () => {
         { text: 'Pando 定投计划操作指南', link: `/tutorials/automaticinvestmentplan` },
         { text: 'Pando 定投功能常见问题', link: `/tutorials/autoinvestfaq` },
         { text: 'CoWallet 多签钱包使用指南', link: `/tutorials/cowallet` },
+        { text: 'Pando 投资者社区加入指南', link: `/tutorials/mastodoncommunity` },
+        
       ]
     }
   ]
