@@ -8,7 +8,12 @@
 
 ## 第二步 加入 Pando 投资者社区
 
-在 Mixin Messenger 中打开 Pando （@7000105018）机器人，或网页端登录 Pando 官网 (https://pando.im)，连接 Mixin 钱包后点击 「账户」页面，找到「社区」入口，点击「去绑定」。
+在 Mixin Messenger 中打开 Pando （@7000105018）机器人，或网页端登录 Pando 官网 (https://pando.im)，连接 Mixin 钱包后点击 「账户」页面，找到「社区」入口
+
+- 如果是首次使用社区功能，请先点击 「点此注册」
+- 如果已经注册过了，点击「去绑定」。
+
+### 注册社区账户
 
 ![entry](./assets/mastodon-create1.webp)
 
@@ -20,9 +25,12 @@
 
 ![account created](./assets/mastodon-create3.webp)
 
+### 绑定社区账户到 Pando
+
 回到 Pando 机器人或者官网的 「账户」页面，再次点击「社区」入口，在出现的弹窗中点击「去绑定」，同意授权后就进入了 Pando 投资者社区。
 
 ![bind successfully](./assets/mastodon-bind.webp)
 
+:::warning 
 请注意如果您「定投人生」社群会员资格到期未续费，或者您退出定投社群后，您也会同时失去 Pando 投资者社区的登入权限，如果您续费「定投人生」社群后，Pando 投资者社区的登入权限也会自动恢复。
-
+:::
