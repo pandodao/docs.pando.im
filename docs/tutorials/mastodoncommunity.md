@@ -31,6 +31,57 @@
 
 ![bind successfully](./assets/mastodon-bind.webp)
 
+## Pando 投资者社区 成员资格
+
+目前 Pando 投资者社区 仅面向「定投人生」社群成员开放。
+
 :::warning 
 请注意如果您「定投人生」社群会员资格到期未续费，或者您退出定投社群后，您也会同时失去 Pando 投资者社区的登入权限，如果您续费「定投人生」社群后，Pando 投资者社区的登入权限也会自动恢复。
 :::
+
+## 安装 Pando 投资者社区 PwA 
+
+### PwA 是什么
+
+PWA 全称为 [Progressive Web Apps（渐进式 WebApp）](https://web.dev/explore/progressive-web-apps?hl=zh-cn)，提供了与原生 App 相似的能力、可靠性、可安装性。无需应用商城，无需下载，直接从浏览器安装 Pando 投资者社区的 PWA 后，就可以直接在电脑桌面或者手机主屏幕像使用 App 一样打开并且使用 Pando 投资者社区。
+
+### 如何在电脑桌面端安装
+
+在 Chrome 浏览器输入 Pando 投资者社区的网址 https://mastodon.pando.im。点击地址栏的「安装」图标，在弹出的安装确认弹窗点击「install」（安装）。
+
+![mastodon pwa install](./assets/mastodon-pwainstall.webp)
+
+点击之后，等待少许电脑桌面会弹出 Pando 投资者社区 的页面弹窗，也网页端看到的相同。
+
+在电脑桌面查找 「Pando Community」，可以看到名为 “Pando Community” 的图标出现在应用程序的菜单栏。
+
+![mastodon community on the screen](./assets/mastodon-pwaondesktop.webp)
+
+### 如何在 iOS 手机端安装
+
+1）使用 Safari 浏览器
+
+在手机的 Safari 浏览器地址栏里输入 Pando 投资者社区的网址 https://mastodon.pando.im，点击屏幕最下方中间的按钮，在弹出的列表里选择“添加到主屏幕”。
+
+![mastodon community ios safari install](./assets/mastodon-pwaiossafariinstall.webp)
+
+2）使用 Chrome 浏览器
+
+在手机的 Chrome 浏览器地址栏里输入 Pando 投资者社区的网址 https://mastodon.pando.im，点击屏幕地址栏最右边的按钮，在弹出的列表选择“添加到主屏幕”。
+
+![mastodon community ios chrome install](./assets/mastodon-pwaioschromeinstall.webp)
+
+安装到手机主屏幕后，搜索 “Pando Community” 会在应用程序菜单里找到名为“Pando Community”的图标。点击进入后，就可以像使用 app 一样便捷地使用 Pando 投资者社区了。
+
+### 如何在安卓手机端安装
+
+1）使用 Chrome/Edge/Firefox 等浏览器
+
+在浏览器地址栏里输入 Pando 投资者社区的网址 https://mastodon.pando.im，点击浏览器菜单栏里的「安装应用」。在安装确认弹窗点击“安装”后，稍等一会儿，Pando Community 就安装到手机主屏幕了。
+
+![mastodon community android chrome install](./assets/mastodon-pwaandroidinstall.webp)
+
+2）使用安卓手机自带的浏览器
+
+请注意，有一部分手机类型的自带浏览器不支持 PWA 下载，因此不会出现安装提示。建议如果您在手机自带的浏览器的菜单栏找不到安装提示，请更换 Chrome/Edge/Firefox 等浏览器进行安装。
+
