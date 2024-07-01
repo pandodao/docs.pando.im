@@ -22,11 +22,9 @@ Bee.holdings 现已整合进入 Pando 机器人（Mixin ID：7000105018），买
 
 请注意首次申购的金额不得少于 50000 USDT，第二次之后的申购金额单次不得少于 1000 USDT。
 
-申购 Bee Holdings 基金的 USDT 目前仅支持 ERC-20 版本，如果您持有其他版本的 USDT，可以添加并使用 交易机器人（Mixin ID @7000105298）或者 ExinOne (Mixin ID @7000101276）机器人的「闪兑」功能将其他版本的 USDT 转化为 USDT ERC-20。 
+申购 Bee Holdings 基金的 USDT 目前支持 ERC-20 和 TRC-20 版本，如果您持有其他版本的 USDT，可以添加并使用 ExinOne（Mixin ID @7000101276）机器人的「闪兑」功能将其他版本的 USDT 转化为 USDT ERC-20 或 USDT TRC-20。 
 
 ![bee-usdtconvert1](./assets/bee-usdtconvert1.webp)
-
-![bee-usdtconvert2](./assets/bee-usdtconvert2.webp)
 
 「人生最重要的一课」（Mixin ID: ）社群成员拥有 banker（定投银行家）身份，自动获得了基金申购资格。不在该社群的用户，可以向拥有邀请码的用户获得邀请码，获得资金申购资格。完成申购后，身份将为 “holder” (持有者)。
 
